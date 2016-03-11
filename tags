@@ -1,0 +1,928 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+SOAP_ENV__Code	soapStub.h	/^        SOAP_ENV__Code()$/;"	f	struct:SOAP_ENV__Code	access:public	signature:()
+SOAP_ENV__Code	soapStub.h	/^        struct SOAP_ENV__Code *SOAP_ENV__Code;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Code	access:public
+SOAP_ENV__Code	soapStub.h	/^struct SOAP_ENV__Code {$/;"	s
+SOAP_ENV__Code::SOAP_ENV__Code	soapStub.h	/^        SOAP_ENV__Code()$/;"	f	struct:SOAP_ENV__Code	access:public	signature:()
+SOAP_ENV__Code::SOAP_ENV__Subcode	soapStub.h	/^        struct SOAP_ENV__Code *SOAP_ENV__Subcode;$/;"	m	struct:SOAP_ENV__Code	typeref:struct:SOAP_ENV__Code::SOAP_ENV__Code	access:public
+SOAP_ENV__Code::SOAP_ENV__Value	soapStub.h	/^        char *SOAP_ENV__Value;$/;"	m	struct:SOAP_ENV__Code	access:public
+SOAP_ENV__Code::soap_instantiate_SOAP_ENV__Code	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Code * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Code(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Code	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+SOAP_ENV__Code::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Code; }$/;"	f	struct:SOAP_ENV__Code	access:public	signature:() const
+SOAP_ENV__Detail	soapStub.h	/^        SOAP_ENV__Detail()$/;"	f	struct:SOAP_ENV__Detail	access:public	signature:()
+SOAP_ENV__Detail	soapStub.h	/^        struct SOAP_ENV__Detail *SOAP_ENV__Detail;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Detail	access:public
+SOAP_ENV__Detail	soapStub.h	/^struct SOAP_ENV__Detail {$/;"	s
+SOAP_ENV__Detail::SOAP_ENV__Detail	soapStub.h	/^        SOAP_ENV__Detail()$/;"	f	struct:SOAP_ENV__Detail	access:public	signature:()
+SOAP_ENV__Detail::__any	soapStub.h	/^        char *__any;$/;"	m	struct:SOAP_ENV__Detail	access:public
+SOAP_ENV__Detail::__type	soapStub.h	/^        int __type;$/;"	m	struct:SOAP_ENV__Detail	access:public
+SOAP_ENV__Detail::fault	soapStub.h	/^        void *fault;$/;"	m	struct:SOAP_ENV__Detail	access:public
+SOAP_ENV__Detail::soap_instantiate_SOAP_ENV__Detail	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Detail * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Detail(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Detail	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+SOAP_ENV__Detail::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Detail; }$/;"	f	struct:SOAP_ENV__Detail	access:public	signature:() const
+SOAP_ENV__Fault	soapStub.h	/^        SOAP_ENV__Fault()$/;"	f	struct:SOAP_ENV__Fault	access:public	signature:()
+SOAP_ENV__Fault	soapStub.h	/^struct SOAP_ENV__Fault {$/;"	s
+SOAP_ENV__Fault::SOAP_ENV__Code	soapStub.h	/^        struct SOAP_ENV__Code *SOAP_ENV__Code;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Code	access:public
+SOAP_ENV__Fault::SOAP_ENV__Detail	soapStub.h	/^        struct SOAP_ENV__Detail *SOAP_ENV__Detail;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Detail	access:public
+SOAP_ENV__Fault::SOAP_ENV__Fault	soapStub.h	/^        SOAP_ENV__Fault()$/;"	f	struct:SOAP_ENV__Fault	access:public	signature:()
+SOAP_ENV__Fault::SOAP_ENV__Node	soapStub.h	/^        char *SOAP_ENV__Node;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Fault::SOAP_ENV__Reason	soapStub.h	/^        struct SOAP_ENV__Reason *SOAP_ENV__Reason;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Reason	access:public
+SOAP_ENV__Fault::SOAP_ENV__Role	soapStub.h	/^        char *SOAP_ENV__Role;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Fault::detail	soapStub.h	/^        struct SOAP_ENV__Detail *detail;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Detail	access:public
+SOAP_ENV__Fault::faultactor	soapStub.h	/^        char *faultactor;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Fault::faultcode	soapStub.h	/^        char *faultcode;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Fault::faultstring	soapStub.h	/^        char *faultstring;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Fault::soap_instantiate_SOAP_ENV__Fault	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Fault * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Fault(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Fault	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+SOAP_ENV__Fault::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Fault; }$/;"	f	struct:SOAP_ENV__Fault	access:public	signature:() const
+SOAP_ENV__Header	soapStub.h	/^        SOAP_ENV__Header()$/;"	f	struct:SOAP_ENV__Header	access:public	signature:()
+SOAP_ENV__Header	soapStub.h	/^struct SOAP_ENV__Header {$/;"	s
+SOAP_ENV__Header::SOAP_ENV__Header	soapStub.h	/^        SOAP_ENV__Header()$/;"	f	struct:SOAP_ENV__Header	access:public	signature:()
+SOAP_ENV__Header::soap_instantiate_SOAP_ENV__Header	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Header * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Header(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Header	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+SOAP_ENV__Header::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Header; }$/;"	f	struct:SOAP_ENV__Header	access:public	signature:() const
+SOAP_ENV__Node	soapStub.h	/^        char *SOAP_ENV__Node;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Reason	soapStub.h	/^        SOAP_ENV__Reason()$/;"	f	struct:SOAP_ENV__Reason	access:public	signature:()
+SOAP_ENV__Reason	soapStub.h	/^        struct SOAP_ENV__Reason *SOAP_ENV__Reason;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Reason	access:public
+SOAP_ENV__Reason	soapStub.h	/^struct SOAP_ENV__Reason {$/;"	s
+SOAP_ENV__Reason::SOAP_ENV__Reason	soapStub.h	/^        SOAP_ENV__Reason()$/;"	f	struct:SOAP_ENV__Reason	access:public	signature:()
+SOAP_ENV__Reason::SOAP_ENV__Text	soapStub.h	/^        char *SOAP_ENV__Text;$/;"	m	struct:SOAP_ENV__Reason	access:public
+SOAP_ENV__Reason::soap_instantiate_SOAP_ENV__Reason	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Reason * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Reason(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Reason	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+SOAP_ENV__Reason::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Reason; }$/;"	f	struct:SOAP_ENV__Reason	access:public	signature:() const
+SOAP_ENV__Role	soapStub.h	/^        char *SOAP_ENV__Role;$/;"	m	struct:SOAP_ENV__Fault	access:public
+SOAP_ENV__Subcode	soapStub.h	/^        struct SOAP_ENV__Code *SOAP_ENV__Subcode;$/;"	m	struct:SOAP_ENV__Code	typeref:struct:SOAP_ENV__Code::SOAP_ENV__Code	access:public
+SOAP_ENV__Text	soapStub.h	/^        char *SOAP_ENV__Text;$/;"	m	struct:SOAP_ENV__Reason	access:public
+SOAP_ENV__Value	soapStub.h	/^        char *SOAP_ENV__Value;$/;"	m	struct:SOAP_ENV__Code	access:public
+SOAP_NAMESPACE_OF_ns2	calc.h	130;"	d
+SOAP_NAMESPACE_OF_ns2	soapStub.h	18;"	d
+SOAP_PURE_VIRTUAL	soapcalcProxy.h	/^        virtual calcProxy *copy() SOAP_PURE_VIRTUAL;$/;"	m	class:calcProxy	access:public
+SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual calcService *copy() SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int add(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int div(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int mul(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int pow(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int sub(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+SOAP_TYPE_PointerToSOAP_ENV__Code	soapStub.h	549;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Code_DEFINED	soapH.h	1034;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Detail	soapStub.h	544;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Detail_DEFINED	soapH.h	1021;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Reason	soapStub.h	539;"	d
+SOAP_TYPE_PointerToSOAP_ENV__Reason_DEFINED	soapH.h	1008;"	d
+SOAP_TYPE_SOAP_ENV__Code	soapStub.h	299;"	d
+SOAP_TYPE_SOAP_ENV__Code	soapStub.h	479;"	d
+SOAP_TYPE_SOAP_ENV__Code_DEFINED	soapH.h	324;"	d
+SOAP_TYPE_SOAP_ENV__Detail	soapStub.h	326;"	d
+SOAP_TYPE_SOAP_ENV__Detail	soapStub.h	474;"	d
+SOAP_TYPE_SOAP_ENV__Detail_DEFINED	soapH.h	259;"	d
+SOAP_TYPE_SOAP_ENV__Fault	soapStub.h	377;"	d
+SOAP_TYPE_SOAP_ENV__Fault	soapStub.h	464;"	d
+SOAP_TYPE_SOAP_ENV__Fault_DEFINED	soapH.h	129;"	d
+SOAP_TYPE_SOAP_ENV__Header	soapStub.h	280;"	d
+SOAP_TYPE_SOAP_ENV__Header	soapStub.h	484;"	d
+SOAP_TYPE_SOAP_ENV__Header_DEFINED	soapH.h	383;"	d
+SOAP_TYPE_SOAP_ENV__Reason	soapStub.h	354;"	d
+SOAP_TYPE_SOAP_ENV__Reason	soapStub.h	469;"	d
+SOAP_TYPE_SOAP_ENV__Reason_DEFINED	soapH.h	202;"	d
+SOAP_TYPE__QName	soapStub.h	430;"	d
+SOAP_TYPE__QName	soapStub.h	559;"	d
+SOAP_TYPE__QName_DEFINED	soapH.h	1049;"	d
+SOAP_TYPE__XML	soapStub.h	436;"	d
+SOAP_TYPE__XML	soapStub.h	554;"	d
+SOAP_TYPE__XML_DEFINED	soapH.h	1045;"	d
+SOAP_TYPE_byte	soapStub.h	449;"	d
+SOAP_TYPE_byte_DEFINED	soapH.h	49;"	d
+SOAP_TYPE_double	soapStub.h	459;"	d
+SOAP_TYPE_double_DEFINED	soapH.h	101;"	d
+SOAP_TYPE_int	soapStub.h	454;"	d
+SOAP_TYPE_int_DEFINED	soapH.h	75;"	d
+SOAP_TYPE_ns2__add	soapStub.h	529;"	d
+SOAP_TYPE_ns2__add	soapStub.h	75;"	d
+SOAP_TYPE_ns2__addResponse	soapStub.h	534;"	d
+SOAP_TYPE_ns2__addResponse	soapStub.h	54;"	d
+SOAP_TYPE_ns2__addResponse_DEFINED	soapH.h	951;"	d
+SOAP_TYPE_ns2__add_DEFINED	soapH.h	892;"	d
+SOAP_TYPE_ns2__div	soapStub.h	210;"	d
+SOAP_TYPE_ns2__div	soapStub.h	499;"	d
+SOAP_TYPE_ns2__divResponse	soapStub.h	189;"	d
+SOAP_TYPE_ns2__divResponse	soapStub.h	504;"	d
+SOAP_TYPE_ns2__divResponse_DEFINED	soapH.h	609;"	d
+SOAP_TYPE_ns2__div_DEFINED	soapH.h	550;"	d
+SOAP_TYPE_ns2__mul	soapStub.h	165;"	d
+SOAP_TYPE_ns2__mul	soapStub.h	509;"	d
+SOAP_TYPE_ns2__mulResponse	soapStub.h	144;"	d
+SOAP_TYPE_ns2__mulResponse	soapStub.h	514;"	d
+SOAP_TYPE_ns2__mulResponse_DEFINED	soapH.h	723;"	d
+SOAP_TYPE_ns2__mul_DEFINED	soapH.h	664;"	d
+SOAP_TYPE_ns2__pow	soapStub.h	255;"	d
+SOAP_TYPE_ns2__pow	soapStub.h	489;"	d
+SOAP_TYPE_ns2__powResponse	soapStub.h	234;"	d
+SOAP_TYPE_ns2__powResponse	soapStub.h	494;"	d
+SOAP_TYPE_ns2__powResponse_DEFINED	soapH.h	495;"	d
+SOAP_TYPE_ns2__pow_DEFINED	soapH.h	436;"	d
+SOAP_TYPE_ns2__sub	soapStub.h	120;"	d
+SOAP_TYPE_ns2__sub	soapStub.h	519;"	d
+SOAP_TYPE_ns2__subResponse	soapStub.h	524;"	d
+SOAP_TYPE_ns2__subResponse	soapStub.h	99;"	d
+SOAP_TYPE_ns2__subResponse_DEFINED	soapH.h	837;"	d
+SOAP_TYPE_ns2__sub_DEFINED	soapH.h	778;"	d
+SOAP_TYPE_string	soapStub.h	564;"	d
+SOAP_TYPE_string_DEFINED	soapH.h	1076;"	d
+_QName	soapStub.h	/^typedef char *_QName;$/;"	t
+_XML	soapStub.h	/^typedef char *_XML;$/;"	t
+__any	soapStub.h	/^        char *__any;$/;"	m	struct:SOAP_ENV__Detail	access:public
+__type	soapStub.h	/^        int __type;$/;"	m	struct:SOAP_ENV__Detail	access:public
+a	soapStub.h	/^        double a;$/;"	m	struct:ns2__add	access:public
+a	soapStub.h	/^        double a;$/;"	m	struct:ns2__div	access:public
+a	soapStub.h	/^        double a;$/;"	m	struct:ns2__mul	access:public
+a	soapStub.h	/^        double a;$/;"	m	struct:ns2__pow	access:public
+a	soapStub.h	/^        double a;$/;"	m	struct:ns2__sub	access:public
+accept	soapcalcService.cpp	/^SOAP_SOCKET calcService::accept()$/;"	f	class:calcService	signature:()
+accept	soapcalcService.h	/^        virtual SOAP_SOCKET accept();$/;"	p	class:calcService	access:public	signature:()
+add	soapcalcProxy.cpp	/^int calcProxy::add(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+add	soapcalcProxy.h	/^        virtual int add(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+add	soapcalcProxy.h	/^        virtual int add(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+b	soapStub.h	/^        double b;$/;"	m	struct:ns2__add	access:public
+b	soapStub.h	/^        double b;$/;"	m	struct:ns2__div	access:public
+b	soapStub.h	/^        double b;$/;"	m	struct:ns2__mul	access:public
+b	soapStub.h	/^        double b;$/;"	m	struct:ns2__pow	access:public
+b	soapStub.h	/^        double b;$/;"	m	struct:ns2__sub	access:public
+bind	soapcalcService.cpp	/^SOAP_SOCKET calcService::bind(const char *host, int port, int backlog)$/;"	f	class:calcService	signature:(const char *host, int port, int backlog)
+bind	soapcalcService.h	/^        virtual SOAP_SOCKET bind(const char *host, int port, int backlog);$/;"	p	class:calcService	access:public	signature:(const char *host, int port, int backlog)
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy() : soap(SOAP_IO_DEFAULT)$/;"	f	class:calcProxy	signature:()
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const calcProxy& rhs)$/;"	f	class:calcProxy	signature:(const calcProxy& rhs)
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const char *endpoint) : soap(SOAP_IO_DEFAULT)$/;"	f	class:calcProxy	signature:(const char *endpoint)
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const char *endpoint, soap_mode iomode) : soap(iomode)$/;"	f	class:calcProxy	signature:(const char *endpoint, soap_mode iomode)
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const struct soap &_soap) : soap(_soap)$/;"	f	class:calcProxy	signature:(const struct soap &_soap)
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(soap_mode imode, soap_mode omode) : soap(imode, omode)$/;"	f	class:calcProxy	signature:(soap_mode imode, soap_mode omode)
+calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(soap_mode iomode) : soap(iomode)$/;"	f	class:calcProxy	signature:(soap_mode iomode)
+calcProxy	soapcalcProxy.h	/^        calcProxy();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy	soapcalcProxy.h	/^        calcProxy(const calcProxy& rhs);$/;"	p	class:calcProxy	access:public	signature:(const calcProxy& rhs)
+calcProxy	soapcalcProxy.h	/^        calcProxy(const char *endpoint);$/;"	p	class:calcProxy	access:public	signature:(const char *endpoint)
+calcProxy	soapcalcProxy.h	/^        calcProxy(const char *endpoint, soap_mode iomode);$/;"	p	class:calcProxy	access:public	signature:(const char *endpoint, soap_mode iomode)
+calcProxy	soapcalcProxy.h	/^        calcProxy(const struct soap&);$/;"	p	class:calcProxy	access:public	signature:(const struct soap&)
+calcProxy	soapcalcProxy.h	/^        calcProxy(soap_mode imode, soap_mode omode);$/;"	p	class:calcProxy	access:public	signature:(soap_mode imode, soap_mode omode)
+calcProxy	soapcalcProxy.h	/^        calcProxy(soap_mode iomode);$/;"	p	class:calcProxy	access:public	signature:(soap_mode iomode)
+calcProxy	soapcalcProxy.h	/^    class SOAP_CMAC calcProxy : public soap {$/;"	c	inherits:soap
+calcProxy::SOAP_PURE_VIRTUAL	soapcalcProxy.h	/^        virtual calcProxy *copy() SOAP_PURE_VIRTUAL;$/;"	m	class:calcProxy	access:public
+calcProxy::add	soapcalcProxy.cpp	/^int calcProxy::add(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::add	soapcalcProxy.h	/^        virtual int add(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::add	soapcalcProxy.h	/^        virtual int add(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy() : soap(SOAP_IO_DEFAULT)$/;"	f	class:calcProxy	signature:()
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const calcProxy& rhs)$/;"	f	class:calcProxy	signature:(const calcProxy& rhs)
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const char *endpoint) : soap(SOAP_IO_DEFAULT)$/;"	f	class:calcProxy	signature:(const char *endpoint)
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const char *endpoint, soap_mode iomode) : soap(iomode)$/;"	f	class:calcProxy	signature:(const char *endpoint, soap_mode iomode)
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(const struct soap &_soap) : soap(_soap)$/;"	f	class:calcProxy	signature:(const struct soap &_soap)
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(soap_mode imode, soap_mode omode) : soap(imode, omode)$/;"	f	class:calcProxy	signature:(soap_mode imode, soap_mode omode)
+calcProxy::calcProxy	soapcalcProxy.cpp	/^calcProxy::calcProxy(soap_mode iomode) : soap(iomode)$/;"	f	class:calcProxy	signature:(soap_mode iomode)
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy(const calcProxy& rhs);$/;"	p	class:calcProxy	access:public	signature:(const calcProxy& rhs)
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy(const char *endpoint);$/;"	p	class:calcProxy	access:public	signature:(const char *endpoint)
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy(const char *endpoint, soap_mode iomode);$/;"	p	class:calcProxy	access:public	signature:(const char *endpoint, soap_mode iomode)
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy(const struct soap&);$/;"	p	class:calcProxy	access:public	signature:(const struct soap&)
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy(soap_mode imode, soap_mode omode);$/;"	p	class:calcProxy	access:public	signature:(soap_mode imode, soap_mode omode)
+calcProxy::calcProxy	soapcalcProxy.h	/^        calcProxy(soap_mode iomode);$/;"	p	class:calcProxy	access:public	signature:(soap_mode iomode)
+calcProxy::calcProxy_init	soapcalcProxy.cpp	/^void calcProxy::calcProxy_init(soap_mode imode, soap_mode omode)$/;"	f	class:calcProxy	signature:(soap_mode imode, soap_mode omode)
+calcProxy::calcProxy_init	soapcalcProxy.h	/^        virtual void calcProxy_init(soap_mode imode, soap_mode omode);$/;"	p	class:calcProxy	access:public	signature:(soap_mode imode, soap_mode omode)
+calcProxy::copy	soapcalcProxy.cpp	/^calcProxy *calcProxy::copy()$/;"	f	class:calcProxy	signature:()
+calcProxy::destroy	soapcalcProxy.cpp	/^void calcProxy::destroy()$/;"	f	class:calcProxy	signature:()
+calcProxy::destroy	soapcalcProxy.h	/^        virtual void destroy();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::div	soapcalcProxy.cpp	/^int calcProxy::div(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::div	soapcalcProxy.h	/^        virtual int div(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::div	soapcalcProxy.h	/^        virtual int div(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+calcProxy::mul	soapcalcProxy.cpp	/^int calcProxy::mul(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::mul	soapcalcProxy.h	/^        virtual int mul(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::mul	soapcalcProxy.h	/^        virtual int mul(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+calcProxy::operator =	soapcalcProxy.cpp	/^calcProxy& calcProxy::operator=(const calcProxy& rhs)$/;"	f	class:calcProxy	signature:(const calcProxy& rhs)
+calcProxy::operator =	soapcalcProxy.h	/^        calcProxy& operator=(const calcProxy&);$/;"	p	class:calcProxy	access:public	signature:(const calcProxy&)
+calcProxy::pow	soapcalcProxy.cpp	/^int calcProxy::pow(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::pow	soapcalcProxy.h	/^        virtual int pow(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::pow	soapcalcProxy.h	/^        virtual int pow(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+calcProxy::reset	soapcalcProxy.cpp	/^void calcProxy::reset()$/;"	f	class:calcProxy	signature:()
+calcProxy::reset	soapcalcProxy.h	/^        virtual void reset();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_close_socket	soapcalcProxy.cpp	/^int calcProxy::soap_close_socket()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_close_socket	soapcalcProxy.h	/^        virtual int soap_close_socket();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_endpoint	soapcalcProxy.h	/^        const char *soap_endpoint;$/;"	m	class:calcProxy	access:public
+calcProxy::soap_fault	soapcalcProxy.cpp	/^const SOAP_ENV__Fault *calcProxy::soap_fault()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_fault	soapcalcProxy.h	/^        virtual const SOAP_ENV__Fault *soap_fault();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_fault_detail	soapcalcProxy.cpp	/^const char *calcProxy::soap_fault_detail()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_fault_detail	soapcalcProxy.h	/^        virtual const char *soap_fault_detail();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_fault_string	soapcalcProxy.cpp	/^const char *calcProxy::soap_fault_string()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_fault_string	soapcalcProxy.h	/^        virtual const char *soap_fault_string();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_force_close_socket	soapcalcProxy.cpp	/^int calcProxy::soap_force_close_socket()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_force_close_socket	soapcalcProxy.h	/^        virtual int soap_force_close_socket();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_header	soapcalcProxy.cpp	/^const SOAP_ENV__Header *calcProxy::soap_header()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_header	soapcalcProxy.h	/^        virtual const SOAP_ENV__Header *soap_header();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_noheader	soapcalcProxy.cpp	/^void calcProxy::soap_noheader()$/;"	f	class:calcProxy	signature:()
+calcProxy::soap_noheader	soapcalcProxy.h	/^        virtual void soap_noheader();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy::soap_print_fault	soapcalcProxy.cpp	/^void calcProxy::soap_print_fault(FILE *fd)$/;"	f	class:calcProxy	signature:(FILE *fd)
+calcProxy::soap_print_fault	soapcalcProxy.h	/^        virtual void soap_print_fault(FILE*);$/;"	p	class:calcProxy	access:public	signature:(FILE*)
+calcProxy::soap_sprint_fault	soapcalcProxy.cpp	/^char *calcProxy::soap_sprint_fault(char *buf, size_t len)$/;"	f	class:calcProxy	signature:(char *buf, size_t len)
+calcProxy::soap_sprint_fault	soapcalcProxy.h	/^        virtual char *soap_sprint_fault(char *buf, size_t len);$/;"	p	class:calcProxy	access:public	signature:(char *buf, size_t len)
+calcProxy::soap_stream_fault	soapcalcProxy.cpp	/^void calcProxy::soap_stream_fault(std::ostream& os)$/;"	f	class:calcProxy	signature:(std::ostream& os)
+calcProxy::soap_stream_fault	soapcalcProxy.h	/^        virtual void soap_stream_fault(std::ostream&);$/;"	p	class:calcProxy	access:public	signature:(std::ostream&)
+calcProxy::sub	soapcalcProxy.cpp	/^int calcProxy::sub(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::sub	soapcalcProxy.h	/^        virtual int sub(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+calcProxy::sub	soapcalcProxy.h	/^        virtual int sub(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+calcProxy::~calcProxy	soapcalcProxy.cpp	/^calcProxy::~calcProxy()$/;"	f	class:calcProxy	signature:()
+calcProxy::~calcProxy	soapcalcProxy.h	/^        virtual ~calcProxy();$/;"	p	class:calcProxy	access:public	signature:()
+calcProxy_init	soapcalcProxy.cpp	/^void calcProxy::calcProxy_init(soap_mode imode, soap_mode omode)$/;"	f	class:calcProxy	signature:(soap_mode imode, soap_mode omode)
+calcProxy_init	soapcalcProxy.h	/^        virtual void calcProxy_init(soap_mode imode, soap_mode omode);$/;"	p	class:calcProxy	access:public	signature:(soap_mode imode, soap_mode omode)
+calcService	soapcalcService.cpp	/^calcService::calcService() : soap(SOAP_IO_DEFAULT)$/;"	f	class:calcService	signature:()
+calcService	soapcalcService.cpp	/^calcService::calcService(const calcService& rhs)$/;"	f	class:calcService	signature:(const calcService& rhs)
+calcService	soapcalcService.cpp	/^calcService::calcService(const struct soap &_soap) : soap(_soap)$/;"	f	class:calcService	signature:(const struct soap &_soap)
+calcService	soapcalcService.cpp	/^calcService::calcService(soap_mode imode, soap_mode omode) : soap(imode, omode)$/;"	f	class:calcService	signature:(soap_mode imode, soap_mode omode)
+calcService	soapcalcService.cpp	/^calcService::calcService(soap_mode iomode) : soap(iomode)$/;"	f	class:calcService	signature:(soap_mode iomode)
+calcService	soapcalcService.h	/^        calcService();$/;"	p	class:calcService	access:public	signature:()
+calcService	soapcalcService.h	/^        calcService(const calcService&);$/;"	p	class:calcService	access:public	signature:(const calcService&)
+calcService	soapcalcService.h	/^        calcService(const struct soap&);$/;"	p	class:calcService	access:public	signature:(const struct soap&)
+calcService	soapcalcService.h	/^        calcService(soap_mode imode, soap_mode omode);$/;"	p	class:calcService	access:public	signature:(soap_mode imode, soap_mode omode)
+calcService	soapcalcService.h	/^        calcService(soap_mode iomode);$/;"	p	class:calcService	access:public	signature:(soap_mode iomode)
+calcService	soapcalcService.h	/^    class SOAP_CMAC calcService : public soap {$/;"	c	inherits:soap
+calcService::SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual calcService *copy() SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+calcService::SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int add(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+calcService::SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int div(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+calcService::SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int mul(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+calcService::SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int pow(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+calcService::SOAP_PURE_VIRTUAL	soapcalcService.h	/^        virtual int sub(double a, double b, double &result) SOAP_PURE_VIRTUAL;$/;"	m	class:calcService	access:public
+calcService::accept	soapcalcService.cpp	/^SOAP_SOCKET calcService::accept()$/;"	f	class:calcService	signature:()
+calcService::accept	soapcalcService.h	/^        virtual SOAP_SOCKET accept();$/;"	p	class:calcService	access:public	signature:()
+calcService::bind	soapcalcService.cpp	/^SOAP_SOCKET calcService::bind(const char *host, int port, int backlog)$/;"	f	class:calcService	signature:(const char *host, int port, int backlog)
+calcService::bind	soapcalcService.h	/^        virtual SOAP_SOCKET bind(const char *host, int port, int backlog);$/;"	p	class:calcService	access:public	signature:(const char *host, int port, int backlog)
+calcService::calcService	soapcalcService.cpp	/^calcService::calcService() : soap(SOAP_IO_DEFAULT)$/;"	f	class:calcService	signature:()
+calcService::calcService	soapcalcService.cpp	/^calcService::calcService(const calcService& rhs)$/;"	f	class:calcService	signature:(const calcService& rhs)
+calcService::calcService	soapcalcService.cpp	/^calcService::calcService(const struct soap &_soap) : soap(_soap)$/;"	f	class:calcService	signature:(const struct soap &_soap)
+calcService::calcService	soapcalcService.cpp	/^calcService::calcService(soap_mode imode, soap_mode omode) : soap(imode, omode)$/;"	f	class:calcService	signature:(soap_mode imode, soap_mode omode)
+calcService::calcService	soapcalcService.cpp	/^calcService::calcService(soap_mode iomode) : soap(iomode)$/;"	f	class:calcService	signature:(soap_mode iomode)
+calcService::calcService	soapcalcService.h	/^        calcService();$/;"	p	class:calcService	access:public	signature:()
+calcService::calcService	soapcalcService.h	/^        calcService(const calcService&);$/;"	p	class:calcService	access:public	signature:(const calcService&)
+calcService::calcService	soapcalcService.h	/^        calcService(const struct soap&);$/;"	p	class:calcService	access:public	signature:(const struct soap&)
+calcService::calcService	soapcalcService.h	/^        calcService(soap_mode imode, soap_mode omode);$/;"	p	class:calcService	access:public	signature:(soap_mode imode, soap_mode omode)
+calcService::calcService	soapcalcService.h	/^        calcService(soap_mode iomode);$/;"	p	class:calcService	access:public	signature:(soap_mode iomode)
+calcService::calcService_init	soapcalcService.cpp	/^void calcService::calcService_init(soap_mode imode, soap_mode omode)$/;"	f	class:calcService	signature:(soap_mode imode, soap_mode omode)
+calcService::calcService_init	soapcalcService.h	/^        virtual void calcService_init(soap_mode imode, soap_mode omode);$/;"	p	class:calcService	access:public	signature:(soap_mode imode, soap_mode omode)
+calcService::copy	soapcalcService.cpp	/^calcService *calcService::copy()$/;"	f	class:calcService	signature:()
+calcService::destroy	soapcalcService.cpp	/^void calcService::destroy()$/;"	f	class:calcService	signature:()
+calcService::destroy	soapcalcService.h	/^        virtual void destroy();$/;"	p	class:calcService	access:public	signature:()
+calcService::dispatch	soapcalcService.cpp	/^int calcService::dispatch()$/;"	f	class:calcService	signature:()
+calcService::dispatch	soapcalcService.h	/^        virtual int dispatch();$/;"	p	class:calcService	access:public	signature:()
+calcService::operator =	soapcalcService.cpp	/^calcService& calcService::operator=(const calcService& rhs)$/;"	f	class:calcService	signature:(const calcService& rhs)
+calcService::operator =	soapcalcService.h	/^        calcService& operator=(const calcService&);$/;"	p	class:calcService	access:public	signature:(const calcService&)
+calcService::reset	soapcalcService.cpp	/^void calcService::reset()$/;"	f	class:calcService	signature:()
+calcService::reset	soapcalcService.h	/^        virtual void reset();$/;"	p	class:calcService	access:public	signature:()
+calcService::run	soapcalcService.cpp	/^int calcService::run(int port)$/;"	f	class:calcService	signature:(int port)
+calcService::run	soapcalcService.h	/^        virtual int run(int port);$/;"	p	class:calcService	access:public	signature:(int port)
+calcService::serve	soapcalcService.cpp	/^int calcService::serve()$/;"	f	class:calcService	signature:()
+calcService::serve	soapcalcService.h	/^        virtual int serve();$/;"	p	class:calcService	access:public	signature:()
+calcService::soap_close_socket	soapcalcService.cpp	/^int calcService::soap_close_socket()$/;"	f	class:calcService	signature:()
+calcService::soap_close_socket	soapcalcService.h	/^        virtual int soap_close_socket();$/;"	p	class:calcService	access:public	signature:()
+calcService::soap_force_close_socket	soapcalcService.cpp	/^int calcService::soap_force_close_socket()$/;"	f	class:calcService	signature:()
+calcService::soap_force_close_socket	soapcalcService.h	/^        virtual int soap_force_close_socket();$/;"	p	class:calcService	access:public	signature:()
+calcService::soap_header	soapcalcService.cpp	/^const SOAP_ENV__Header *calcService::soap_header()$/;"	f	class:calcService	signature:()
+calcService::soap_header	soapcalcService.h	/^        virtual const SOAP_ENV__Header *soap_header();$/;"	p	class:calcService	access:public	signature:()
+calcService::soap_noheader	soapcalcService.cpp	/^void calcService::soap_noheader()$/;"	f	class:calcService	signature:()
+calcService::soap_noheader	soapcalcService.h	/^        virtual void soap_noheader();$/;"	p	class:calcService	access:public	signature:()
+calcService::soap_print_fault	soapcalcService.cpp	/^void calcService::soap_print_fault(FILE *fd)$/;"	f	class:calcService	signature:(FILE *fd)
+calcService::soap_print_fault	soapcalcService.h	/^        virtual void soap_print_fault(FILE*);$/;"	p	class:calcService	access:public	signature:(FILE*)
+calcService::soap_receiverfault	soapcalcService.cpp	/^int calcService::soap_receiverfault(const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *string, const char *detailXML)
+calcService::soap_receiverfault	soapcalcService.cpp	/^int calcService::soap_receiverfault(const char *subcodeQName, const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+calcService::soap_receiverfault	soapcalcService.h	/^        virtual int soap_receiverfault(const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *string, const char *detailXML)
+calcService::soap_receiverfault	soapcalcService.h	/^        virtual int soap_receiverfault(const char *subcodeQName, const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+calcService::soap_senderfault	soapcalcService.cpp	/^int calcService::soap_senderfault(const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *string, const char *detailXML)
+calcService::soap_senderfault	soapcalcService.cpp	/^int calcService::soap_senderfault(const char *subcodeQName, const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+calcService::soap_senderfault	soapcalcService.h	/^        virtual int soap_senderfault(const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *string, const char *detailXML)
+calcService::soap_senderfault	soapcalcService.h	/^        virtual int soap_senderfault(const char *subcodeQName, const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+calcService::soap_sprint_fault	soapcalcService.cpp	/^char *calcService::soap_sprint_fault(char *buf, size_t len)$/;"	f	class:calcService	signature:(char *buf, size_t len)
+calcService::soap_sprint_fault	soapcalcService.h	/^        virtual char *soap_sprint_fault(char *buf, size_t len);$/;"	p	class:calcService	access:public	signature:(char *buf, size_t len)
+calcService::soap_stream_fault	soapcalcService.cpp	/^void calcService::soap_stream_fault(std::ostream& os)$/;"	f	class:calcService	signature:(std::ostream& os)
+calcService::soap_stream_fault	soapcalcService.h	/^        virtual void soap_stream_fault(std::ostream&);$/;"	p	class:calcService	access:public	signature:(std::ostream&)
+calcService::ssl_accept	soapcalcService.cpp	/^int calcService::ssl_accept()$/;"	f	class:calcService	signature:()
+calcService::ssl_accept	soapcalcService.h	/^        virtual int ssl_accept();$/;"	p	class:calcService	access:public	signature:()
+calcService::ssl_run	soapcalcService.cpp	/^int calcService::ssl_run(int port)$/;"	f	class:calcService	signature:(int port)
+calcService::ssl_run	soapcalcService.h	/^        virtual int ssl_run(int port);$/;"	p	class:calcService	access:public	signature:(int port)
+calcService::~calcService	soapcalcService.cpp	/^calcService::~calcService()$/;"	f	class:calcService	signature:()
+calcService::~calcService	soapcalcService.h	/^        virtual ~calcService();$/;"	p	class:calcService	access:public	signature:()
+calcService_init	soapcalcService.cpp	/^void calcService::calcService_init(soap_mode imode, soap_mode omode)$/;"	f	class:calcService	signature:(soap_mode imode, soap_mode omode)
+calcService_init	soapcalcService.h	/^        virtual void calcService_init(soap_mode imode, soap_mode omode);$/;"	p	class:calcService	access:public	signature:(soap_mode imode, soap_mode omode)
+copy	soapcalcProxy.cpp	/^calcProxy *calcProxy::copy()$/;"	f	class:calcProxy	signature:()
+copy	soapcalcService.cpp	/^calcService *calcService::copy()$/;"	f	class:calcService	signature:()
+destroy	soapcalcProxy.cpp	/^void calcProxy::destroy()$/;"	f	class:calcProxy	signature:()
+destroy	soapcalcProxy.h	/^        virtual void destroy();$/;"	p	class:calcProxy	access:public	signature:()
+destroy	soapcalcService.cpp	/^void calcService::destroy()$/;"	f	class:calcService	signature:()
+destroy	soapcalcService.h	/^        virtual void destroy();$/;"	p	class:calcService	access:public	signature:()
+detail	soapStub.h	/^        struct SOAP_ENV__Detail *detail;$/;"	m	struct:SOAP_ENV__Fault	typeref:struct:SOAP_ENV__Fault::SOAP_ENV__Detail	access:public
+dispatch	soapcalcService.cpp	/^int calcService::dispatch()$/;"	f	class:calcService	signature:()
+dispatch	soapcalcService.h	/^        virtual int dispatch();$/;"	p	class:calcService	access:public	signature:()
+div	soapcalcProxy.cpp	/^int calcProxy::div(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+div	soapcalcProxy.h	/^        virtual int div(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+div	soapcalcProxy.h	/^        virtual int div(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+fault	soapStub.h	/^        void *fault;$/;"	m	struct:SOAP_ENV__Detail	access:public
+faultactor	soapStub.h	/^        char *faultactor;$/;"	m	struct:SOAP_ENV__Fault	access:public
+faultcode	soapStub.h	/^        char *faultcode;$/;"	m	struct:SOAP_ENV__Fault	access:public
+faultstring	soapStub.h	/^        char *faultstring;$/;"	m	struct:SOAP_ENV__Fault	access:public
+main	client.cpp	/^int main(int argc,char **argv)$/;"	f	signature:(int argc,char **argv)
+mul	soapcalcProxy.cpp	/^int calcProxy::mul(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+mul	soapcalcProxy.h	/^        virtual int mul(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+mul	soapcalcProxy.h	/^        virtual int mul(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+ns2__add	calc.h	/^int ns2__add($/;"	p	signature:( double a, double b, double &result )
+ns2__add	soapStub.h	/^        ns2__add()$/;"	f	struct:ns2__add	access:public	signature:()
+ns2__add	soapStub.h	/^struct ns2__add {$/;"	s
+ns2__add::a	soapStub.h	/^        double a;$/;"	m	struct:ns2__add	access:public
+ns2__add::b	soapStub.h	/^        double b;$/;"	m	struct:ns2__add	access:public
+ns2__add::ns2__add	soapStub.h	/^        ns2__add()$/;"	f	struct:ns2__add	access:public	signature:()
+ns2__add::soap_instantiate_ns2__add	soapStub.h	/^        friend SOAP_FMAC1 ns2__add * SOAP_FMAC2 soap_instantiate_ns2__add(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__add	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__add::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__add; }$/;"	f	struct:ns2__add	access:public	signature:() const
+ns2__addResponse	soapStub.h	/^        ns2__addResponse()$/;"	f	struct:ns2__addResponse	access:public	signature:()
+ns2__addResponse	soapStub.h	/^struct ns2__addResponse {$/;"	s
+ns2__addResponse::ns2__addResponse	soapStub.h	/^        ns2__addResponse()$/;"	f	struct:ns2__addResponse	access:public	signature:()
+ns2__addResponse::result	soapStub.h	/^        double result;$/;"	m	struct:ns2__addResponse	access:public
+ns2__addResponse::soap_instantiate_ns2__addResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__addResponse * SOAP_FMAC2 soap_instantiate_ns2__addResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__addResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__addResponse::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__addResponse; }$/;"	f	struct:ns2__addResponse	access:public	signature:() const
+ns2__div	calc.h	/^int ns2__div($/;"	p	signature:( double a, double b, double &result )
+ns2__div	soapStub.h	/^        ns2__div()$/;"	f	struct:ns2__div	access:public	signature:()
+ns2__div	soapStub.h	/^struct ns2__div {$/;"	s
+ns2__div::a	soapStub.h	/^        double a;$/;"	m	struct:ns2__div	access:public
+ns2__div::b	soapStub.h	/^        double b;$/;"	m	struct:ns2__div	access:public
+ns2__div::ns2__div	soapStub.h	/^        ns2__div()$/;"	f	struct:ns2__div	access:public	signature:()
+ns2__div::soap_instantiate_ns2__div	soapStub.h	/^        friend SOAP_FMAC1 ns2__div * SOAP_FMAC2 soap_instantiate_ns2__div(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__div	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__div::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__div; }$/;"	f	struct:ns2__div	access:public	signature:() const
+ns2__divResponse	soapStub.h	/^        ns2__divResponse()$/;"	f	struct:ns2__divResponse	access:public	signature:()
+ns2__divResponse	soapStub.h	/^struct ns2__divResponse {$/;"	s
+ns2__divResponse::ns2__divResponse	soapStub.h	/^        ns2__divResponse()$/;"	f	struct:ns2__divResponse	access:public	signature:()
+ns2__divResponse::result	soapStub.h	/^        double result;$/;"	m	struct:ns2__divResponse	access:public
+ns2__divResponse::soap_instantiate_ns2__divResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__divResponse * SOAP_FMAC2 soap_instantiate_ns2__divResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__divResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__divResponse::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__divResponse; }$/;"	f	struct:ns2__divResponse	access:public	signature:() const
+ns2__mul	calc.h	/^int ns2__mul($/;"	p	signature:( double a, double b, double &result )
+ns2__mul	soapStub.h	/^        ns2__mul()$/;"	f	struct:ns2__mul	access:public	signature:()
+ns2__mul	soapStub.h	/^struct ns2__mul {$/;"	s
+ns2__mul::a	soapStub.h	/^        double a;$/;"	m	struct:ns2__mul	access:public
+ns2__mul::b	soapStub.h	/^        double b;$/;"	m	struct:ns2__mul	access:public
+ns2__mul::ns2__mul	soapStub.h	/^        ns2__mul()$/;"	f	struct:ns2__mul	access:public	signature:()
+ns2__mul::soap_instantiate_ns2__mul	soapStub.h	/^        friend SOAP_FMAC1 ns2__mul * SOAP_FMAC2 soap_instantiate_ns2__mul(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__mul	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__mul::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__mul; }$/;"	f	struct:ns2__mul	access:public	signature:() const
+ns2__mulResponse	soapStub.h	/^        ns2__mulResponse()$/;"	f	struct:ns2__mulResponse	access:public	signature:()
+ns2__mulResponse	soapStub.h	/^struct ns2__mulResponse {$/;"	s
+ns2__mulResponse::ns2__mulResponse	soapStub.h	/^        ns2__mulResponse()$/;"	f	struct:ns2__mulResponse	access:public	signature:()
+ns2__mulResponse::result	soapStub.h	/^        double result;$/;"	m	struct:ns2__mulResponse	access:public
+ns2__mulResponse::soap_instantiate_ns2__mulResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__mulResponse * SOAP_FMAC2 soap_instantiate_ns2__mulResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__mulResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__mulResponse::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__mulResponse; }$/;"	f	struct:ns2__mulResponse	access:public	signature:() const
+ns2__pow	calc.h	/^int ns2__pow($/;"	p	signature:( double a, double b, double &result )
+ns2__pow	soapStub.h	/^        ns2__pow()$/;"	f	struct:ns2__pow	access:public	signature:()
+ns2__pow	soapStub.h	/^struct ns2__pow {$/;"	s
+ns2__pow::a	soapStub.h	/^        double a;$/;"	m	struct:ns2__pow	access:public
+ns2__pow::b	soapStub.h	/^        double b;$/;"	m	struct:ns2__pow	access:public
+ns2__pow::ns2__pow	soapStub.h	/^        ns2__pow()$/;"	f	struct:ns2__pow	access:public	signature:()
+ns2__pow::soap_instantiate_ns2__pow	soapStub.h	/^        friend SOAP_FMAC1 ns2__pow * SOAP_FMAC2 soap_instantiate_ns2__pow(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__pow	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__pow::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__pow; }$/;"	f	struct:ns2__pow	access:public	signature:() const
+ns2__powResponse	soapStub.h	/^        ns2__powResponse()$/;"	f	struct:ns2__powResponse	access:public	signature:()
+ns2__powResponse	soapStub.h	/^struct ns2__powResponse {$/;"	s
+ns2__powResponse::ns2__powResponse	soapStub.h	/^        ns2__powResponse()$/;"	f	struct:ns2__powResponse	access:public	signature:()
+ns2__powResponse::result	soapStub.h	/^        double result;$/;"	m	struct:ns2__powResponse	access:public
+ns2__powResponse::soap_instantiate_ns2__powResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__powResponse * SOAP_FMAC2 soap_instantiate_ns2__powResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__powResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__powResponse::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__powResponse; }$/;"	f	struct:ns2__powResponse	access:public	signature:() const
+ns2__sub	calc.h	/^int ns2__sub($/;"	p	signature:( double a, double b, double &result )
+ns2__sub	soapStub.h	/^        ns2__sub()$/;"	f	struct:ns2__sub	access:public	signature:()
+ns2__sub	soapStub.h	/^struct ns2__sub {$/;"	s
+ns2__sub::a	soapStub.h	/^        double a;$/;"	m	struct:ns2__sub	access:public
+ns2__sub::b	soapStub.h	/^        double b;$/;"	m	struct:ns2__sub	access:public
+ns2__sub::ns2__sub	soapStub.h	/^        ns2__sub()$/;"	f	struct:ns2__sub	access:public	signature:()
+ns2__sub::soap_instantiate_ns2__sub	soapStub.h	/^        friend SOAP_FMAC1 ns2__sub * SOAP_FMAC2 soap_instantiate_ns2__sub(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__sub	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__sub::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__sub; }$/;"	f	struct:ns2__sub	access:public	signature:() const
+ns2__subResponse	soapStub.h	/^        ns2__subResponse()$/;"	f	struct:ns2__subResponse	access:public	signature:()
+ns2__subResponse	soapStub.h	/^struct ns2__subResponse {$/;"	s
+ns2__subResponse::ns2__subResponse	soapStub.h	/^        ns2__subResponse()$/;"	f	struct:ns2__subResponse	access:public	signature:()
+ns2__subResponse::result	soapStub.h	/^        double result;$/;"	m	struct:ns2__subResponse	access:public
+ns2__subResponse::soap_instantiate_ns2__subResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__subResponse * SOAP_FMAC2 soap_instantiate_ns2__subResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__subResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+ns2__subResponse::soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__subResponse; }$/;"	f	struct:ns2__subResponse	access:public	signature:() const
+operator =	soapcalcProxy.cpp	/^calcProxy& calcProxy::operator=(const calcProxy& rhs)$/;"	f	class:calcProxy	signature:(const calcProxy& rhs)
+operator =	soapcalcProxy.h	/^        calcProxy& operator=(const calcProxy&);$/;"	p	class:calcProxy	access:public	signature:(const calcProxy&)
+operator =	soapcalcService.cpp	/^calcService& calcService::operator=(const calcService& rhs)$/;"	f	class:calcService	signature:(const calcService& rhs)
+operator =	soapcalcService.h	/^        calcService& operator=(const calcService&);$/;"	p	class:calcService	access:public	signature:(const calcService&)
+pow	soapcalcProxy.cpp	/^int calcProxy::pow(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+pow	soapcalcProxy.h	/^        virtual int pow(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+pow	soapcalcProxy.h	/^        virtual int pow(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+reset	soapcalcProxy.cpp	/^void calcProxy::reset()$/;"	f	class:calcProxy	signature:()
+reset	soapcalcProxy.h	/^        virtual void reset();$/;"	p	class:calcProxy	access:public	signature:()
+reset	soapcalcService.cpp	/^void calcService::reset()$/;"	f	class:calcService	signature:()
+reset	soapcalcService.h	/^        virtual void reset();$/;"	p	class:calcService	access:public	signature:()
+result	soapStub.h	/^        double result;$/;"	m	struct:ns2__addResponse	access:public
+result	soapStub.h	/^        double result;$/;"	m	struct:ns2__divResponse	access:public
+result	soapStub.h	/^        double result;$/;"	m	struct:ns2__mulResponse	access:public
+result	soapStub.h	/^        double result;$/;"	m	struct:ns2__powResponse	access:public
+result	soapStub.h	/^        double result;$/;"	m	struct:ns2__subResponse	access:public
+run	soapcalcService.cpp	/^int calcService::run(int port)$/;"	f	class:calcService	signature:(int port)
+run	soapcalcService.h	/^        virtual int run(int port);$/;"	p	class:calcService	access:public	signature:(int port)
+serve	soapcalcService.cpp	/^int calcService::serve()$/;"	f	class:calcService	signature:()
+serve	soapcalcService.h	/^        virtual int serve();$/;"	p	class:calcService	access:public	signature:()
+serve_ns2__add	soapcalcService.cpp	/^static int serve_ns2__add(calcService *soap)$/;"	f	file:	signature:(calcService *soap)
+serve_ns2__add	soapcalcService.cpp	/^static int serve_ns2__add(calcService*);$/;"	p	file:	signature:(calcService*)
+serve_ns2__div	soapcalcService.cpp	/^static int serve_ns2__div(calcService *soap)$/;"	f	file:	signature:(calcService *soap)
+serve_ns2__div	soapcalcService.cpp	/^static int serve_ns2__div(calcService*);$/;"	p	file:	signature:(calcService*)
+serve_ns2__mul	soapcalcService.cpp	/^static int serve_ns2__mul(calcService *soap)$/;"	f	file:	signature:(calcService *soap)
+serve_ns2__mul	soapcalcService.cpp	/^static int serve_ns2__mul(calcService*);$/;"	p	file:	signature:(calcService*)
+serve_ns2__pow	soapcalcService.cpp	/^static int serve_ns2__pow(calcService *soap)$/;"	f	file:	signature:(calcService *soap)
+serve_ns2__pow	soapcalcService.cpp	/^static int serve_ns2__pow(calcService*);$/;"	p	file:	signature:(calcService*)
+serve_ns2__sub	soapcalcService.cpp	/^static int serve_ns2__sub(calcService *soap)$/;"	f	file:	signature:(calcService *soap)
+serve_ns2__sub	soapcalcService.cpp	/^static int serve_ns2__sub(calcService*);$/;"	p	file:	signature:(calcService*)
+soapH_H	soapH.h	15;"	d
+soapStub_H	soapStub.h	21;"	d
+soap_check_faultdetail	soapC.cpp	/^SOAP_FMAC3 const char * SOAP_FMAC4 soap_check_faultdetail(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_check_faultsubcode	soapC.cpp	/^SOAP_FMAC3 const char * SOAP_FMAC4 soap_check_faultsubcode(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_close_socket	soapcalcProxy.cpp	/^int calcProxy::soap_close_socket()$/;"	f	class:calcProxy	signature:()
+soap_close_socket	soapcalcProxy.h	/^        virtual int soap_close_socket();$/;"	p	class:calcProxy	access:public	signature:()
+soap_close_socket	soapcalcService.cpp	/^int calcService::soap_close_socket()$/;"	f	class:calcService	signature:()
+soap_close_socket	soapcalcService.h	/^        virtual int soap_close_socket();$/;"	p	class:calcService	access:public	signature:()
+soap_default_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code *a)
+soap_default_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Code *)
+soap_default_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail *a)
+soap_default_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Detail *)
+soap_default_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault *a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Fault *a)
+soap_default_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Fault(struct soap*, struct SOAP_ENV__Fault *);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Fault *)
+soap_default_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header *a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Header *a)
+soap_default_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Header(struct soap*, struct SOAP_ENV__Header *);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Header *)
+soap_default_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason *a)
+soap_default_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_SOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Reason *)
+soap_default__QName	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default__QName(struct soap *soap, char **a)$/;"	f	signature:(struct soap *soap, char **a)
+soap_default__QName	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default__QName(struct soap*, char **);$/;"	p	signature:(struct soap*, char **)
+soap_default_byte	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_byte(struct soap *soap, char *a)$/;"	f	signature:(struct soap *soap, char *a)
+soap_default_byte	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_byte(struct soap*, char *);$/;"	p	signature:(struct soap*, char *)
+soap_default_double	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_double(struct soap *soap, double *a)$/;"	f	signature:(struct soap *soap, double *a)
+soap_default_double	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_double(struct soap*, double *);$/;"	p	signature:(struct soap*, double *)
+soap_default_int	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_int(struct soap *soap, int *a)$/;"	f	signature:(struct soap *soap, int *a)
+soap_default_int	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_int(struct soap*, int *);$/;"	p	signature:(struct soap*, int *)
+soap_default_ns2__add	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__add(struct soap *soap, struct ns2__add *a)$/;"	f	signature:(struct soap *soap, struct ns2__add *a)
+soap_default_ns2__add	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__add(struct soap*, struct ns2__add *);$/;"	p	signature:(struct soap*, struct ns2__add *)
+soap_default_ns2__addResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__addResponse(struct soap *soap, struct ns2__addResponse *a)$/;"	f	signature:(struct soap *soap, struct ns2__addResponse *a)
+soap_default_ns2__addResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__addResponse(struct soap*, struct ns2__addResponse *);$/;"	p	signature:(struct soap*, struct ns2__addResponse *)
+soap_default_ns2__div	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__div(struct soap *soap, struct ns2__div *a)$/;"	f	signature:(struct soap *soap, struct ns2__div *a)
+soap_default_ns2__div	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__div(struct soap*, struct ns2__div *);$/;"	p	signature:(struct soap*, struct ns2__div *)
+soap_default_ns2__divResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__divResponse(struct soap *soap, struct ns2__divResponse *a)$/;"	f	signature:(struct soap *soap, struct ns2__divResponse *a)
+soap_default_ns2__divResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__divResponse(struct soap*, struct ns2__divResponse *);$/;"	p	signature:(struct soap*, struct ns2__divResponse *)
+soap_default_ns2__mul	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__mul(struct soap *soap, struct ns2__mul *a)$/;"	f	signature:(struct soap *soap, struct ns2__mul *a)
+soap_default_ns2__mul	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__mul(struct soap*, struct ns2__mul *);$/;"	p	signature:(struct soap*, struct ns2__mul *)
+soap_default_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__mulResponse(struct soap *soap, struct ns2__mulResponse *a)$/;"	f	signature:(struct soap *soap, struct ns2__mulResponse *a)
+soap_default_ns2__mulResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__mulResponse(struct soap*, struct ns2__mulResponse *);$/;"	p	signature:(struct soap*, struct ns2__mulResponse *)
+soap_default_ns2__pow	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__pow(struct soap *soap, struct ns2__pow *a)$/;"	f	signature:(struct soap *soap, struct ns2__pow *a)
+soap_default_ns2__pow	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__pow(struct soap*, struct ns2__pow *);$/;"	p	signature:(struct soap*, struct ns2__pow *)
+soap_default_ns2__powResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__powResponse(struct soap *soap, struct ns2__powResponse *a)$/;"	f	signature:(struct soap *soap, struct ns2__powResponse *a)
+soap_default_ns2__powResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__powResponse(struct soap*, struct ns2__powResponse *);$/;"	p	signature:(struct soap*, struct ns2__powResponse *)
+soap_default_ns2__sub	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__sub(struct soap *soap, struct ns2__sub *a)$/;"	f	signature:(struct soap *soap, struct ns2__sub *a)
+soap_default_ns2__sub	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__sub(struct soap*, struct ns2__sub *);$/;"	p	signature:(struct soap*, struct ns2__sub *)
+soap_default_ns2__subResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__subResponse(struct soap *soap, struct ns2__subResponse *a)$/;"	f	signature:(struct soap *soap, struct ns2__subResponse *a)
+soap_default_ns2__subResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_ns2__subResponse(struct soap*, struct ns2__subResponse *);$/;"	p	signature:(struct soap*, struct ns2__subResponse *)
+soap_default_string	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_string(struct soap *soap, char **a)$/;"	f	signature:(struct soap *soap, char **a)
+soap_default_string	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_default_string(struct soap*, char **);$/;"	p	signature:(struct soap*, char **)
+soap_endpoint	soapcalcProxy.h	/^        const char *soap_endpoint;$/;"	m	class:calcProxy	access:public
+soap_fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_fault(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_fault	soapcalcProxy.cpp	/^const SOAP_ENV__Fault *calcProxy::soap_fault()$/;"	f	class:calcProxy	signature:()
+soap_fault	soapcalcProxy.h	/^        virtual const SOAP_ENV__Fault *soap_fault();$/;"	p	class:calcProxy	access:public	signature:()
+soap_fault_detail	soapcalcProxy.cpp	/^const char *calcProxy::soap_fault_detail()$/;"	f	class:calcProxy	signature:()
+soap_fault_detail	soapcalcProxy.h	/^        virtual const char *soap_fault_detail();$/;"	p	class:calcProxy	access:public	signature:()
+soap_fault_string	soapcalcProxy.cpp	/^const char *calcProxy::soap_fault_string()$/;"	f	class:calcProxy	signature:()
+soap_fault_string	soapcalcProxy.h	/^        virtual const char *soap_fault_string();$/;"	p	class:calcProxy	access:public	signature:()
+soap_faultcode	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultcode(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_faultcode	soapH.h	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultcode(struct soap *soap);$/;"	p	signature:(struct soap *soap)
+soap_faultdetail	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultdetail(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_faultstring	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultstring(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_faultsubcode	soapC.cpp	/^SOAP_FMAC3 const char ** SOAP_FMAC4 soap_faultsubcode(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_fbase	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_fbase(int t, int b)$/;"	f	signature:(int t, int b)
+soap_fbase	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_fbase(int, int);$/;"	p	signature:(int, int)
+soap_fdelete	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_fdelete(struct soap_clist *p)$/;"	f	signature:(struct soap_clist *p)
+soap_fdelete	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_fdelete(struct soap_clist*);$/;"	p	signature:(struct soap_clist*)
+soap_finsert	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_finsert(struct soap *soap, int t, int tt, void *p, size_t index, const void *q, void **x)$/;"	f	signature:(struct soap *soap, int t, int tt, void *p, size_t index, const void *q, void **x)
+soap_finsert	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_finsert(struct soap*, int, int, void*, size_t, const void*, void**);$/;"	p	signature:(struct soap*, int, int, void*, size_t, const void*, void**)
+soap_force_close_socket	soapcalcProxy.cpp	/^int calcProxy::soap_force_close_socket()$/;"	f	class:calcProxy	signature:()
+soap_force_close_socket	soapcalcProxy.h	/^        virtual int soap_force_close_socket();$/;"	p	class:calcProxy	access:public	signature:()
+soap_force_close_socket	soapcalcService.cpp	/^int calcService::soap_force_close_socket()$/;"	f	class:calcService	signature:()
+soap_force_close_socket	soapcalcService.h	/^        virtual int soap_force_close_socket();$/;"	p	class:calcService	access:public	signature:()
+soap_get_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code **p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code **p, const char *tag, const char *type)
+soap_get_PointerToSOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code **, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Code **, const char*, const char*)
+soap_get_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail **p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail **p, const char *tag, const char *type)
+soap_get_PointerToSOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail **, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Detail **, const char*, const char*)
+soap_get_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason **p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason **p, const char *tag, const char *type)
+soap_get_PointerToSOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_get_PointerToSOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason **, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Reason **, const char*, const char*)
+soap_get_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code * SOAP_FMAC4 soap_get_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code *p, const char *tag, const char *type)
+soap_get_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Code * SOAP_FMAC4 soap_get_SOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Code *, const char*, const char*)
+soap_get_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail * SOAP_FMAC4 soap_get_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail *p, const char *tag, const char *type)
+soap_get_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Detail * SOAP_FMAC4 soap_get_SOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Detail *, const char*, const char*)
+soap_get_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Fault * SOAP_FMAC4 soap_get_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Fault *p, const char *tag, const char *type)
+soap_get_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Fault * SOAP_FMAC4 soap_get_SOAP_ENV__Fault(struct soap*, struct SOAP_ENV__Fault *, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Fault *, const char*, const char*)
+soap_get_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Header * SOAP_FMAC4 soap_get_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Header *p, const char *tag, const char *type)
+soap_get_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Header * SOAP_FMAC4 soap_get_SOAP_ENV__Header(struct soap*, struct SOAP_ENV__Header *, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Header *, const char*, const char*)
+soap_get_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason * SOAP_FMAC4 soap_get_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason *p, const char *tag, const char *type)
+soap_get_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Reason * SOAP_FMAC4 soap_get_SOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Reason *, const char*, const char*)
+soap_get__QName	soapC.cpp	/^SOAP_FMAC3 char ** SOAP_FMAC4 soap_get__QName(struct soap *soap, char **p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, char **p, const char *tag, const char *type)
+soap_get__QName	soapH.h	/^SOAP_FMAC3 char ** SOAP_FMAC4 soap_get__QName(struct soap*, char **, const char*, const char*);$/;"	p	signature:(struct soap*, char **, const char*, const char*)
+soap_get_byte	soapC.cpp	/^SOAP_FMAC3 char * SOAP_FMAC4 soap_get_byte(struct soap *soap, char *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, char *p, const char *tag, const char *type)
+soap_get_byte	soapH.h	/^SOAP_FMAC3 char * SOAP_FMAC4 soap_get_byte(struct soap*, char *, const char*, const char*);$/;"	p	signature:(struct soap*, char *, const char*, const char*)
+soap_get_double	soapC.cpp	/^SOAP_FMAC3 double * SOAP_FMAC4 soap_get_double(struct soap *soap, double *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, double *p, const char *tag, const char *type)
+soap_get_double	soapH.h	/^SOAP_FMAC3 double * SOAP_FMAC4 soap_get_double(struct soap*, double *, const char*, const char*);$/;"	p	signature:(struct soap*, double *, const char*, const char*)
+soap_get_int	soapC.cpp	/^SOAP_FMAC3 int * SOAP_FMAC4 soap_get_int(struct soap *soap, int *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, int *p, const char *tag, const char *type)
+soap_get_int	soapH.h	/^SOAP_FMAC3 int * SOAP_FMAC4 soap_get_int(struct soap*, int *, const char*, const char*);$/;"	p	signature:(struct soap*, int *, const char*, const char*)
+soap_get_ns2__add	soapC.cpp	/^SOAP_FMAC3 struct ns2__add * SOAP_FMAC4 soap_get_ns2__add(struct soap *soap, struct ns2__add *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__add *p, const char *tag, const char *type)
+soap_get_ns2__add	soapH.h	/^SOAP_FMAC3 struct ns2__add * SOAP_FMAC4 soap_get_ns2__add(struct soap*, struct ns2__add *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__add *, const char*, const char*)
+soap_get_ns2__addResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__addResponse * SOAP_FMAC4 soap_get_ns2__addResponse(struct soap *soap, struct ns2__addResponse *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__addResponse *p, const char *tag, const char *type)
+soap_get_ns2__addResponse	soapH.h	/^SOAP_FMAC3 struct ns2__addResponse * SOAP_FMAC4 soap_get_ns2__addResponse(struct soap*, struct ns2__addResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__addResponse *, const char*, const char*)
+soap_get_ns2__div	soapC.cpp	/^SOAP_FMAC3 struct ns2__div * SOAP_FMAC4 soap_get_ns2__div(struct soap *soap, struct ns2__div *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__div *p, const char *tag, const char *type)
+soap_get_ns2__div	soapH.h	/^SOAP_FMAC3 struct ns2__div * SOAP_FMAC4 soap_get_ns2__div(struct soap*, struct ns2__div *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__div *, const char*, const char*)
+soap_get_ns2__divResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__divResponse * SOAP_FMAC4 soap_get_ns2__divResponse(struct soap *soap, struct ns2__divResponse *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__divResponse *p, const char *tag, const char *type)
+soap_get_ns2__divResponse	soapH.h	/^SOAP_FMAC3 struct ns2__divResponse * SOAP_FMAC4 soap_get_ns2__divResponse(struct soap*, struct ns2__divResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__divResponse *, const char*, const char*)
+soap_get_ns2__mul	soapC.cpp	/^SOAP_FMAC3 struct ns2__mul * SOAP_FMAC4 soap_get_ns2__mul(struct soap *soap, struct ns2__mul *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__mul *p, const char *tag, const char *type)
+soap_get_ns2__mul	soapH.h	/^SOAP_FMAC3 struct ns2__mul * SOAP_FMAC4 soap_get_ns2__mul(struct soap*, struct ns2__mul *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__mul *, const char*, const char*)
+soap_get_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__mulResponse * SOAP_FMAC4 soap_get_ns2__mulResponse(struct soap *soap, struct ns2__mulResponse *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__mulResponse *p, const char *tag, const char *type)
+soap_get_ns2__mulResponse	soapH.h	/^SOAP_FMAC3 struct ns2__mulResponse * SOAP_FMAC4 soap_get_ns2__mulResponse(struct soap*, struct ns2__mulResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__mulResponse *, const char*, const char*)
+soap_get_ns2__pow	soapC.cpp	/^SOAP_FMAC3 struct ns2__pow * SOAP_FMAC4 soap_get_ns2__pow(struct soap *soap, struct ns2__pow *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__pow *p, const char *tag, const char *type)
+soap_get_ns2__pow	soapH.h	/^SOAP_FMAC3 struct ns2__pow * SOAP_FMAC4 soap_get_ns2__pow(struct soap*, struct ns2__pow *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__pow *, const char*, const char*)
+soap_get_ns2__powResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__powResponse * SOAP_FMAC4 soap_get_ns2__powResponse(struct soap *soap, struct ns2__powResponse *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__powResponse *p, const char *tag, const char *type)
+soap_get_ns2__powResponse	soapH.h	/^SOAP_FMAC3 struct ns2__powResponse * SOAP_FMAC4 soap_get_ns2__powResponse(struct soap*, struct ns2__powResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__powResponse *, const char*, const char*)
+soap_get_ns2__sub	soapC.cpp	/^SOAP_FMAC3 struct ns2__sub * SOAP_FMAC4 soap_get_ns2__sub(struct soap *soap, struct ns2__sub *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__sub *p, const char *tag, const char *type)
+soap_get_ns2__sub	soapH.h	/^SOAP_FMAC3 struct ns2__sub * SOAP_FMAC4 soap_get_ns2__sub(struct soap*, struct ns2__sub *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__sub *, const char*, const char*)
+soap_get_ns2__subResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__subResponse * SOAP_FMAC4 soap_get_ns2__subResponse(struct soap *soap, struct ns2__subResponse *p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct ns2__subResponse *p, const char *tag, const char *type)
+soap_get_ns2__subResponse	soapH.h	/^SOAP_FMAC3 struct ns2__subResponse * SOAP_FMAC4 soap_get_ns2__subResponse(struct soap*, struct ns2__subResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, struct ns2__subResponse *, const char*, const char*)
+soap_get_string	soapC.cpp	/^SOAP_FMAC3 char ** SOAP_FMAC4 soap_get_string(struct soap *soap, char **p, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, char **p, const char *tag, const char *type)
+soap_get_string	soapH.h	/^SOAP_FMAC3 char ** SOAP_FMAC4 soap_get_string(struct soap*, char **, const char*, const char*);$/;"	p	signature:(struct soap*, char **, const char*, const char*)
+soap_getelement	soapC.cpp	/^SOAP_FMAC3 void * SOAP_FMAC4 soap_getelement(struct soap *soap, int *type)$/;"	f	signature:(struct soap *soap, int *type)
+soap_getelement	soapH.h	/^SOAP_FMAC3 void *SOAP_FMAC4 soap_getelement(struct soap*, int*);$/;"	p	signature:(struct soap*, int*)
+soap_getfault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getfault(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_getheader	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getheader(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_getindependent	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getindependent(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_getindependent	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_getindependent(struct soap*);$/;"	p	signature:(struct soap*)
+soap_header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_header(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_header	soapcalcProxy.cpp	/^const SOAP_ENV__Header *calcProxy::soap_header()$/;"	f	class:calcProxy	signature:()
+soap_header	soapcalcProxy.h	/^        virtual const SOAP_ENV__Header *soap_header();$/;"	p	class:calcProxy	access:public	signature:()
+soap_header	soapcalcService.cpp	/^const SOAP_ENV__Header *calcService::soap_header()$/;"	f	class:calcService	signature:()
+soap_header	soapcalcService.h	/^        virtual const SOAP_ENV__Header *soap_header();$/;"	p	class:calcService	access:public	signature:()
+soap_ignore_element	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_ignore_element(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_ignore_element	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_ignore_element(struct soap*);$/;"	p	signature:(struct soap*)
+soap_in_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Code(struct soap *soap, const char *tag, struct SOAP_ENV__Code **a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Code **a, const char *type)
+soap_in_PointerToSOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Code ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Code(struct soap*, const char*, struct SOAP_ENV__Code **, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Code **, const char*)
+soap_in_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Detail(struct soap *soap, const char *tag, struct SOAP_ENV__Detail **a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Detail **a, const char *type)
+soap_in_PointerToSOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Detail ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Detail(struct soap*, const char*, struct SOAP_ENV__Detail **, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Detail **, const char*)
+soap_in_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Reason(struct soap *soap, const char *tag, struct SOAP_ENV__Reason **a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Reason **a, const char *type)
+soap_in_PointerToSOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Reason ** SOAP_FMAC4 soap_in_PointerToSOAP_ENV__Reason(struct soap*, const char*, struct SOAP_ENV__Reason **, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Reason **, const char*)
+soap_in_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Code * SOAP_FMAC4 soap_in_SOAP_ENV__Code(struct soap *soap, const char *tag, struct SOAP_ENV__Code *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Code *a, const char *type)
+soap_in_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Code * SOAP_FMAC4 soap_in_SOAP_ENV__Code(struct soap*, const char*, struct SOAP_ENV__Code *, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Code *, const char*)
+soap_in_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Detail * SOAP_FMAC4 soap_in_SOAP_ENV__Detail(struct soap *soap, const char *tag, struct SOAP_ENV__Detail *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Detail *a, const char *type)
+soap_in_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Detail * SOAP_FMAC4 soap_in_SOAP_ENV__Detail(struct soap*, const char*, struct SOAP_ENV__Detail *, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Detail *, const char*)
+soap_in_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Fault * SOAP_FMAC4 soap_in_SOAP_ENV__Fault(struct soap *soap, const char *tag, struct SOAP_ENV__Fault *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Fault *a, const char *type)
+soap_in_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Fault * SOAP_FMAC4 soap_in_SOAP_ENV__Fault(struct soap*, const char*, struct SOAP_ENV__Fault *, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Fault *, const char*)
+soap_in_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Header * SOAP_FMAC4 soap_in_SOAP_ENV__Header(struct soap *soap, const char *tag, struct SOAP_ENV__Header *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Header *a, const char *type)
+soap_in_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Header * SOAP_FMAC4 soap_in_SOAP_ENV__Header(struct soap*, const char*, struct SOAP_ENV__Header *, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Header *, const char*)
+soap_in_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 struct SOAP_ENV__Reason * SOAP_FMAC4 soap_in_SOAP_ENV__Reason(struct soap *soap, const char *tag, struct SOAP_ENV__Reason *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct SOAP_ENV__Reason *a, const char *type)
+soap_in_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 struct SOAP_ENV__Reason * SOAP_FMAC4 soap_in_SOAP_ENV__Reason(struct soap*, const char*, struct SOAP_ENV__Reason *, const char*);$/;"	p	signature:(struct soap*, const char*, struct SOAP_ENV__Reason *, const char*)
+soap_in__QName	soapC.cpp	/^SOAP_FMAC3 char * * SOAP_FMAC4 soap_in__QName(struct soap *soap, const char *tag, char **a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, char **a, const char *type)
+soap_in__QName	soapH.h	/^SOAP_FMAC3 char * * SOAP_FMAC4 soap_in__QName(struct soap*, const char*, char **, const char*);$/;"	p	signature:(struct soap*, const char*, char **, const char*)
+soap_in_byte	soapC.cpp	/^SOAP_FMAC3 char * SOAP_FMAC4 soap_in_byte(struct soap *soap, const char *tag, char *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, char *a, const char *type)
+soap_in_byte	soapH.h	/^SOAP_FMAC3 char * SOAP_FMAC4 soap_in_byte(struct soap*, const char*, char *, const char*);$/;"	p	signature:(struct soap*, const char*, char *, const char*)
+soap_in_double	soapC.cpp	/^SOAP_FMAC3 double * SOAP_FMAC4 soap_in_double(struct soap *soap, const char *tag, double *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, double *a, const char *type)
+soap_in_double	soapH.h	/^SOAP_FMAC3 double * SOAP_FMAC4 soap_in_double(struct soap*, const char*, double *, const char*);$/;"	p	signature:(struct soap*, const char*, double *, const char*)
+soap_in_int	soapC.cpp	/^SOAP_FMAC3 int * SOAP_FMAC4 soap_in_int(struct soap *soap, const char *tag, int *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int *a, const char *type)
+soap_in_int	soapH.h	/^SOAP_FMAC3 int * SOAP_FMAC4 soap_in_int(struct soap*, const char*, int *, const char*);$/;"	p	signature:(struct soap*, const char*, int *, const char*)
+soap_in_ns2__add	soapC.cpp	/^SOAP_FMAC3 struct ns2__add * SOAP_FMAC4 soap_in_ns2__add(struct soap *soap, const char *tag, struct ns2__add *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__add *a, const char *type)
+soap_in_ns2__add	soapH.h	/^SOAP_FMAC3 struct ns2__add * SOAP_FMAC4 soap_in_ns2__add(struct soap*, const char*, struct ns2__add *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__add *, const char*)
+soap_in_ns2__addResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__addResponse * SOAP_FMAC4 soap_in_ns2__addResponse(struct soap *soap, const char *tag, struct ns2__addResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__addResponse *a, const char *type)
+soap_in_ns2__addResponse	soapH.h	/^SOAP_FMAC3 struct ns2__addResponse * SOAP_FMAC4 soap_in_ns2__addResponse(struct soap*, const char*, struct ns2__addResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__addResponse *, const char*)
+soap_in_ns2__div	soapC.cpp	/^SOAP_FMAC3 struct ns2__div * SOAP_FMAC4 soap_in_ns2__div(struct soap *soap, const char *tag, struct ns2__div *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__div *a, const char *type)
+soap_in_ns2__div	soapH.h	/^SOAP_FMAC3 struct ns2__div * SOAP_FMAC4 soap_in_ns2__div(struct soap*, const char*, struct ns2__div *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__div *, const char*)
+soap_in_ns2__divResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__divResponse * SOAP_FMAC4 soap_in_ns2__divResponse(struct soap *soap, const char *tag, struct ns2__divResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__divResponse *a, const char *type)
+soap_in_ns2__divResponse	soapH.h	/^SOAP_FMAC3 struct ns2__divResponse * SOAP_FMAC4 soap_in_ns2__divResponse(struct soap*, const char*, struct ns2__divResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__divResponse *, const char*)
+soap_in_ns2__mul	soapC.cpp	/^SOAP_FMAC3 struct ns2__mul * SOAP_FMAC4 soap_in_ns2__mul(struct soap *soap, const char *tag, struct ns2__mul *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__mul *a, const char *type)
+soap_in_ns2__mul	soapH.h	/^SOAP_FMAC3 struct ns2__mul * SOAP_FMAC4 soap_in_ns2__mul(struct soap*, const char*, struct ns2__mul *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__mul *, const char*)
+soap_in_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__mulResponse * SOAP_FMAC4 soap_in_ns2__mulResponse(struct soap *soap, const char *tag, struct ns2__mulResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__mulResponse *a, const char *type)
+soap_in_ns2__mulResponse	soapH.h	/^SOAP_FMAC3 struct ns2__mulResponse * SOAP_FMAC4 soap_in_ns2__mulResponse(struct soap*, const char*, struct ns2__mulResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__mulResponse *, const char*)
+soap_in_ns2__pow	soapC.cpp	/^SOAP_FMAC3 struct ns2__pow * SOAP_FMAC4 soap_in_ns2__pow(struct soap *soap, const char *tag, struct ns2__pow *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__pow *a, const char *type)
+soap_in_ns2__pow	soapH.h	/^SOAP_FMAC3 struct ns2__pow * SOAP_FMAC4 soap_in_ns2__pow(struct soap*, const char*, struct ns2__pow *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__pow *, const char*)
+soap_in_ns2__powResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__powResponse * SOAP_FMAC4 soap_in_ns2__powResponse(struct soap *soap, const char *tag, struct ns2__powResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__powResponse *a, const char *type)
+soap_in_ns2__powResponse	soapH.h	/^SOAP_FMAC3 struct ns2__powResponse * SOAP_FMAC4 soap_in_ns2__powResponse(struct soap*, const char*, struct ns2__powResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__powResponse *, const char*)
+soap_in_ns2__sub	soapC.cpp	/^SOAP_FMAC3 struct ns2__sub * SOAP_FMAC4 soap_in_ns2__sub(struct soap *soap, const char *tag, struct ns2__sub *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__sub *a, const char *type)
+soap_in_ns2__sub	soapH.h	/^SOAP_FMAC3 struct ns2__sub * SOAP_FMAC4 soap_in_ns2__sub(struct soap*, const char*, struct ns2__sub *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__sub *, const char*)
+soap_in_ns2__subResponse	soapC.cpp	/^SOAP_FMAC3 struct ns2__subResponse * SOAP_FMAC4 soap_in_ns2__subResponse(struct soap *soap, const char *tag, struct ns2__subResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, struct ns2__subResponse *a, const char *type)
+soap_in_ns2__subResponse	soapH.h	/^SOAP_FMAC3 struct ns2__subResponse * SOAP_FMAC4 soap_in_ns2__subResponse(struct soap*, const char*, struct ns2__subResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, struct ns2__subResponse *, const char*)
+soap_in_string	soapC.cpp	/^SOAP_FMAC3 char * * SOAP_FMAC4 soap_in_string(struct soap *soap, const char *tag, char **a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, char **a, const char *type)
+soap_in_string	soapH.h	/^SOAP_FMAC3 char * * SOAP_FMAC4 soap_in_string(struct soap*, const char*, char **, const char*);$/;"	p	signature:(struct soap*, const char*, char **, const char*)
+soap_instantiate	soapC.cpp	/^SOAP_FMAC3 void * SOAP_FMAC4 soap_instantiate(struct soap *soap, int t, const char *type, const char *arrayType, size_t *n)$/;"	f	signature:(struct soap *soap, int t, const char *type, const char *arrayType, size_t *n)
+soap_instantiate	soapH.h	/^SOAP_FMAC3 void * SOAP_FMAC4 soap_instantiate(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Code * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Code(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC1 struct SOAP_ENV__Code * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Code(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Code	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Code * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Code(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Code	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Detail * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Detail(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC1 struct SOAP_ENV__Detail * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Detail(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Detail	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Detail * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Detail(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Detail	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Fault * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Fault(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC1 struct SOAP_ENV__Fault * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Fault(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Fault	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Fault * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Fault(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Fault	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Header * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Header(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC1 struct SOAP_ENV__Header * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Header(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Header	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Header * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Header(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Header	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC1 struct SOAP_ENV__Reason * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Reason(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC1 struct SOAP_ENV__Reason * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Reason(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_SOAP_ENV__Reason	soapStub.h	/^        friend SOAP_FMAC1 SOAP_ENV__Reason * SOAP_FMAC2 soap_instantiate_SOAP_ENV__Reason(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:SOAP_ENV__Reason	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__add	soapC.cpp	/^SOAP_FMAC1 struct ns2__add * SOAP_FMAC2 soap_instantiate_ns2__add(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__add	soapH.h	/^SOAP_FMAC1 struct ns2__add * SOAP_FMAC2 soap_instantiate_ns2__add(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__add	soapStub.h	/^        friend SOAP_FMAC1 ns2__add * SOAP_FMAC2 soap_instantiate_ns2__add(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__add	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__addResponse	soapC.cpp	/^SOAP_FMAC1 struct ns2__addResponse * SOAP_FMAC2 soap_instantiate_ns2__addResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__addResponse	soapH.h	/^SOAP_FMAC1 struct ns2__addResponse * SOAP_FMAC2 soap_instantiate_ns2__addResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__addResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__addResponse * SOAP_FMAC2 soap_instantiate_ns2__addResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__addResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__div	soapC.cpp	/^SOAP_FMAC1 struct ns2__div * SOAP_FMAC2 soap_instantiate_ns2__div(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__div	soapH.h	/^SOAP_FMAC1 struct ns2__div * SOAP_FMAC2 soap_instantiate_ns2__div(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__div	soapStub.h	/^        friend SOAP_FMAC1 ns2__div * SOAP_FMAC2 soap_instantiate_ns2__div(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__div	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__divResponse	soapC.cpp	/^SOAP_FMAC1 struct ns2__divResponse * SOAP_FMAC2 soap_instantiate_ns2__divResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__divResponse	soapH.h	/^SOAP_FMAC1 struct ns2__divResponse * SOAP_FMAC2 soap_instantiate_ns2__divResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__divResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__divResponse * SOAP_FMAC2 soap_instantiate_ns2__divResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__divResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__mul	soapC.cpp	/^SOAP_FMAC1 struct ns2__mul * SOAP_FMAC2 soap_instantiate_ns2__mul(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__mul	soapH.h	/^SOAP_FMAC1 struct ns2__mul * SOAP_FMAC2 soap_instantiate_ns2__mul(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__mul	soapStub.h	/^        friend SOAP_FMAC1 ns2__mul * SOAP_FMAC2 soap_instantiate_ns2__mul(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__mul	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC1 struct ns2__mulResponse * SOAP_FMAC2 soap_instantiate_ns2__mulResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__mulResponse	soapH.h	/^SOAP_FMAC1 struct ns2__mulResponse * SOAP_FMAC2 soap_instantiate_ns2__mulResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__mulResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__mulResponse * SOAP_FMAC2 soap_instantiate_ns2__mulResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__mulResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__pow	soapC.cpp	/^SOAP_FMAC1 struct ns2__pow * SOAP_FMAC2 soap_instantiate_ns2__pow(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__pow	soapH.h	/^SOAP_FMAC1 struct ns2__pow * SOAP_FMAC2 soap_instantiate_ns2__pow(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__pow	soapStub.h	/^        friend SOAP_FMAC1 ns2__pow * SOAP_FMAC2 soap_instantiate_ns2__pow(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__pow	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__powResponse	soapC.cpp	/^SOAP_FMAC1 struct ns2__powResponse * SOAP_FMAC2 soap_instantiate_ns2__powResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__powResponse	soapH.h	/^SOAP_FMAC1 struct ns2__powResponse * SOAP_FMAC2 soap_instantiate_ns2__powResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__powResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__powResponse * SOAP_FMAC2 soap_instantiate_ns2__powResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__powResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__sub	soapC.cpp	/^SOAP_FMAC1 struct ns2__sub * SOAP_FMAC2 soap_instantiate_ns2__sub(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__sub	soapH.h	/^SOAP_FMAC1 struct ns2__sub * SOAP_FMAC2 soap_instantiate_ns2__sub(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__sub	soapStub.h	/^        friend SOAP_FMAC1 ns2__sub * SOAP_FMAC2 soap_instantiate_ns2__sub(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__sub	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__subResponse	soapC.cpp	/^SOAP_FMAC1 struct ns2__subResponse * SOAP_FMAC2 soap_instantiate_ns2__subResponse(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)$/;"	f	signature:(struct soap *soap, int n, const char *type, const char *arrayType, size_t *size)
+soap_instantiate_ns2__subResponse	soapH.h	/^SOAP_FMAC1 struct ns2__subResponse * SOAP_FMAC2 soap_instantiate_ns2__subResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_instantiate_ns2__subResponse	soapStub.h	/^        friend SOAP_FMAC1 ns2__subResponse * SOAP_FMAC2 soap_instantiate_ns2__subResponse(struct soap*, int, const char*, const char*, size_t*);$/;"	p	struct:ns2__subResponse	access:friend	signature:(struct soap*, int, const char*, const char*, size_t*)
+soap_markelement	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_markelement(struct soap *soap, const void *ptr, int type)$/;"	f	signature:(struct soap *soap, const void *ptr, int type)
+soap_markelement	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_markelement(struct soap*, const void*, int);$/;"	p	signature:(struct soap*, const void*, int)
+soap_new_SOAP_ENV__Code	soapH.h	/^inline struct SOAP_ENV__Code * soap_new_SOAP_ENV__Code(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_SOAP_ENV__Detail	soapH.h	/^inline struct SOAP_ENV__Detail * soap_new_SOAP_ENV__Detail(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_SOAP_ENV__Fault	soapH.h	/^inline struct SOAP_ENV__Fault * soap_new_SOAP_ENV__Fault(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_SOAP_ENV__Header	soapH.h	/^inline struct SOAP_ENV__Header * soap_new_SOAP_ENV__Header(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_SOAP_ENV__Reason	soapH.h	/^inline struct SOAP_ENV__Reason * soap_new_SOAP_ENV__Reason(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__add	soapH.h	/^inline struct ns2__add * soap_new_ns2__add(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__addResponse	soapH.h	/^inline struct ns2__addResponse * soap_new_ns2__addResponse(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__div	soapH.h	/^inline struct ns2__div * soap_new_ns2__div(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__divResponse	soapH.h	/^inline struct ns2__divResponse * soap_new_ns2__divResponse(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__mul	soapH.h	/^inline struct ns2__mul * soap_new_ns2__mul(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__mulResponse	soapH.h	/^inline struct ns2__mulResponse * soap_new_ns2__mulResponse(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__pow	soapH.h	/^inline struct ns2__pow * soap_new_ns2__pow(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__powResponse	soapH.h	/^inline struct ns2__powResponse * soap_new_ns2__powResponse(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__sub	soapH.h	/^inline struct ns2__sub * soap_new_ns2__sub(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_ns2__subResponse	soapH.h	/^inline struct ns2__subResponse * soap_new_ns2__subResponse(struct soap *soap, int n = -1)$/;"	f	signature:(struct soap *soap, int n = -1)
+soap_new_req_SOAP_ENV__Code	soapH.h	/^inline struct SOAP_ENV__Code * soap_new_req_SOAP_ENV__Code($/;"	f	signature:( struct soap *soap)
+soap_new_req_SOAP_ENV__Detail	soapH.h	/^inline struct SOAP_ENV__Detail * soap_new_req_SOAP_ENV__Detail($/;"	f	signature:( struct soap *soap, int __type, void *fault)
+soap_new_req_SOAP_ENV__Fault	soapH.h	/^inline struct SOAP_ENV__Fault * soap_new_req_SOAP_ENV__Fault($/;"	f	signature:( struct soap *soap)
+soap_new_req_SOAP_ENV__Header	soapH.h	/^inline struct SOAP_ENV__Header * soap_new_req_SOAP_ENV__Header($/;"	f	signature:( struct soap *soap)
+soap_new_req_SOAP_ENV__Reason	soapH.h	/^inline struct SOAP_ENV__Reason * soap_new_req_SOAP_ENV__Reason($/;"	f	signature:( struct soap *soap)
+soap_new_req_ns2__add	soapH.h	/^inline struct ns2__add * soap_new_req_ns2__add($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_req_ns2__addResponse	soapH.h	/^inline struct ns2__addResponse * soap_new_req_ns2__addResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_req_ns2__div	soapH.h	/^inline struct ns2__div * soap_new_req_ns2__div($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_req_ns2__divResponse	soapH.h	/^inline struct ns2__divResponse * soap_new_req_ns2__divResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_req_ns2__mul	soapH.h	/^inline struct ns2__mul * soap_new_req_ns2__mul($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_req_ns2__mulResponse	soapH.h	/^inline struct ns2__mulResponse * soap_new_req_ns2__mulResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_req_ns2__pow	soapH.h	/^inline struct ns2__pow * soap_new_req_ns2__pow($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_req_ns2__powResponse	soapH.h	/^inline struct ns2__powResponse * soap_new_req_ns2__powResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_req_ns2__sub	soapH.h	/^inline struct ns2__sub * soap_new_req_ns2__sub($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_req_ns2__subResponse	soapH.h	/^inline struct ns2__subResponse * soap_new_req_ns2__subResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_set_SOAP_ENV__Code	soapH.h	/^inline struct SOAP_ENV__Code * soap_new_set_SOAP_ENV__Code($/;"	f	signature:( struct soap *soap, char *SOAP_ENV__Value, struct SOAP_ENV__Code *SOAP_ENV__Subcode)
+soap_new_set_SOAP_ENV__Detail	soapH.h	/^inline struct SOAP_ENV__Detail * soap_new_set_SOAP_ENV__Detail($/;"	f	signature:( struct soap *soap, char *__any, int __type, void *fault)
+soap_new_set_SOAP_ENV__Fault	soapH.h	/^inline struct SOAP_ENV__Fault * soap_new_set_SOAP_ENV__Fault($/;"	f	signature:( struct soap *soap, char *faultcode, char *faultstring, char *faultactor, struct SOAP_ENV__Detail *detail, struct SOAP_ENV__Code *SOAP_ENV__Code, struct SOAP_ENV__Reason *SOAP_ENV__Reason, char *SOAP_ENV__Node, char *SOAP_ENV__Role, struct SOAP_ENV__Detail *SOAP_ENV__Detail)
+soap_new_set_SOAP_ENV__Header	soapH.h	/^inline struct SOAP_ENV__Header * soap_new_set_SOAP_ENV__Header($/;"	f	signature:( struct soap *soap)
+soap_new_set_SOAP_ENV__Reason	soapH.h	/^inline struct SOAP_ENV__Reason * soap_new_set_SOAP_ENV__Reason($/;"	f	signature:( struct soap *soap, char *SOAP_ENV__Text)
+soap_new_set_ns2__add	soapH.h	/^inline struct ns2__add * soap_new_set_ns2__add($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_set_ns2__addResponse	soapH.h	/^inline struct ns2__addResponse * soap_new_set_ns2__addResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_set_ns2__div	soapH.h	/^inline struct ns2__div * soap_new_set_ns2__div($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_set_ns2__divResponse	soapH.h	/^inline struct ns2__divResponse * soap_new_set_ns2__divResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_set_ns2__mul	soapH.h	/^inline struct ns2__mul * soap_new_set_ns2__mul($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_set_ns2__mulResponse	soapH.h	/^inline struct ns2__mulResponse * soap_new_set_ns2__mulResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_set_ns2__pow	soapH.h	/^inline struct ns2__pow * soap_new_set_ns2__pow($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_set_ns2__powResponse	soapH.h	/^inline struct ns2__powResponse * soap_new_set_ns2__powResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_new_set_ns2__sub	soapH.h	/^inline struct ns2__sub * soap_new_set_ns2__sub($/;"	f	signature:( struct soap *soap, double a, double b)
+soap_new_set_ns2__subResponse	soapH.h	/^inline struct ns2__subResponse * soap_new_set_ns2__subResponse($/;"	f	signature:( struct soap *soap, double result)
+soap_noheader	soapcalcProxy.cpp	/^void calcProxy::soap_noheader()$/;"	f	class:calcProxy	signature:()
+soap_noheader	soapcalcProxy.h	/^        virtual void soap_noheader();$/;"	p	class:calcProxy	access:public	signature:()
+soap_noheader	soapcalcService.cpp	/^void calcService::soap_noheader()$/;"	f	class:calcService	signature:()
+soap_noheader	soapcalcService.h	/^        virtual void soap_noheader();$/;"	p	class:calcService	access:public	signature:()
+soap_out_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Code(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Code *const*a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Code *const*a, const char *type)
+soap_out_PointerToSOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Code(struct soap*, const char *, int, struct SOAP_ENV__Code *const*, const char *);$/;"	p	signature:(struct soap*, const char *, int, struct SOAP_ENV__Code *const*, const char *)
+soap_out_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Detail(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Detail *const*a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Detail *const*a, const char *type)
+soap_out_PointerToSOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Detail(struct soap*, const char *, int, struct SOAP_ENV__Detail *const*, const char *);$/;"	p	signature:(struct soap*, const char *, int, struct SOAP_ENV__Detail *const*, const char *)
+soap_out_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Reason(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Reason *const*a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, struct SOAP_ENV__Reason *const*a, const char *type)
+soap_out_PointerToSOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_PointerToSOAP_ENV__Reason(struct soap*, const char *, int, struct SOAP_ENV__Reason *const*, const char *);$/;"	p	signature:(struct soap*, const char *, int, struct SOAP_ENV__Reason *const*, const char *)
+soap_out_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Code(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Code *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Code *a, const char *type)
+soap_out_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Code(struct soap*, const char*, int, const struct SOAP_ENV__Code *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct SOAP_ENV__Code *, const char*)
+soap_out_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Detail(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Detail *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Detail *a, const char *type)
+soap_out_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Detail(struct soap*, const char*, int, const struct SOAP_ENV__Detail *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct SOAP_ENV__Detail *, const char*)
+soap_out_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Fault(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Fault *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Fault *a, const char *type)
+soap_out_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Fault(struct soap*, const char*, int, const struct SOAP_ENV__Fault *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct SOAP_ENV__Fault *, const char*)
+soap_out_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Header(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Header *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Header *a, const char *type)
+soap_out_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Header(struct soap*, const char*, int, const struct SOAP_ENV__Header *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct SOAP_ENV__Header *, const char*)
+soap_out_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Reason(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Reason *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct SOAP_ENV__Reason *a, const char *type)
+soap_out_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_SOAP_ENV__Reason(struct soap*, const char*, int, const struct SOAP_ENV__Reason *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct SOAP_ENV__Reason *, const char*)
+soap_out__QName	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__QName(struct soap *soap, const char *tag, int id, char *const*a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, char *const*a, const char *type)
+soap_out__QName	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out__QName(struct soap*, const char*, int, char*const*, const char*);$/;"	p	signature:(struct soap*, const char*, int, char*const*, const char*)
+soap_out_byte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_byte(struct soap *soap, const char *tag, int id, const char *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const char *a, const char *type)
+soap_out_byte	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_byte(struct soap*, const char*, int, const char *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const char *, const char*)
+soap_out_double	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_double(struct soap *soap, const char *tag, int id, const double *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const double *a, const char *type)
+soap_out_double	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_double(struct soap*, const char*, int, const double *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const double *, const char*)
+soap_out_int	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_int(struct soap *soap, const char *tag, int id, const int *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const int *a, const char *type)
+soap_out_int	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_int(struct soap*, const char*, int, const int *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const int *, const char*)
+soap_out_ns2__add	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__add(struct soap *soap, const char *tag, int id, const struct ns2__add *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__add *a, const char *type)
+soap_out_ns2__add	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__add(struct soap*, const char*, int, const struct ns2__add *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__add *, const char*)
+soap_out_ns2__addResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__addResponse(struct soap *soap, const char *tag, int id, const struct ns2__addResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__addResponse *a, const char *type)
+soap_out_ns2__addResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__addResponse(struct soap*, const char*, int, const struct ns2__addResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__addResponse *, const char*)
+soap_out_ns2__div	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__div(struct soap *soap, const char *tag, int id, const struct ns2__div *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__div *a, const char *type)
+soap_out_ns2__div	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__div(struct soap*, const char*, int, const struct ns2__div *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__div *, const char*)
+soap_out_ns2__divResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__divResponse(struct soap *soap, const char *tag, int id, const struct ns2__divResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__divResponse *a, const char *type)
+soap_out_ns2__divResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__divResponse(struct soap*, const char*, int, const struct ns2__divResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__divResponse *, const char*)
+soap_out_ns2__mul	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__mul(struct soap *soap, const char *tag, int id, const struct ns2__mul *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__mul *a, const char *type)
+soap_out_ns2__mul	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__mul(struct soap*, const char*, int, const struct ns2__mul *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__mul *, const char*)
+soap_out_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__mulResponse(struct soap *soap, const char *tag, int id, const struct ns2__mulResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__mulResponse *a, const char *type)
+soap_out_ns2__mulResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__mulResponse(struct soap*, const char*, int, const struct ns2__mulResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__mulResponse *, const char*)
+soap_out_ns2__pow	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__pow(struct soap *soap, const char *tag, int id, const struct ns2__pow *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__pow *a, const char *type)
+soap_out_ns2__pow	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__pow(struct soap*, const char*, int, const struct ns2__pow *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__pow *, const char*)
+soap_out_ns2__powResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__powResponse(struct soap *soap, const char *tag, int id, const struct ns2__powResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__powResponse *a, const char *type)
+soap_out_ns2__powResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__powResponse(struct soap*, const char*, int, const struct ns2__powResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__powResponse *, const char*)
+soap_out_ns2__sub	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__sub(struct soap *soap, const char *tag, int id, const struct ns2__sub *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__sub *a, const char *type)
+soap_out_ns2__sub	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__sub(struct soap*, const char*, int, const struct ns2__sub *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__sub *, const char*)
+soap_out_ns2__subResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__subResponse(struct soap *soap, const char *tag, int id, const struct ns2__subResponse *a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, const struct ns2__subResponse *a, const char *type)
+soap_out_ns2__subResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_ns2__subResponse(struct soap*, const char*, int, const struct ns2__subResponse *, const char*);$/;"	p	signature:(struct soap*, const char*, int, const struct ns2__subResponse *, const char*)
+soap_out_string	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_string(struct soap *soap, const char *tag, int id, char *const*a, const char *type)$/;"	f	signature:(struct soap *soap, const char *tag, int id, char *const*a, const char *type)
+soap_out_string	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_out_string(struct soap*, const char*, int, char*const*, const char*);$/;"	p	signature:(struct soap*, const char*, int, char*const*, const char*)
+soap_print_fault	soapcalcProxy.cpp	/^void calcProxy::soap_print_fault(FILE *fd)$/;"	f	class:calcProxy	signature:(FILE *fd)
+soap_print_fault	soapcalcProxy.h	/^        virtual void soap_print_fault(FILE*);$/;"	p	class:calcProxy	access:public	signature:(FILE*)
+soap_print_fault	soapcalcService.cpp	/^void calcService::soap_print_fault(FILE *fd)$/;"	f	class:calcService	signature:(FILE *fd)
+soap_print_fault	soapcalcService.h	/^        virtual void soap_print_fault(FILE*);$/;"	p	class:calcService	access:public	signature:(FILE*)
+soap_put_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *const*a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code *const*a, const char *tag, const char *type)
+soap_put_PointerToSOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *const*, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Code *const*, const char*, const char*)
+soap_put_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *const*a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail *const*a, const char *tag, const char *type)
+soap_put_PointerToSOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *const*, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Detail *const*, const char*, const char*)
+soap_put_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *const*a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason *const*a, const char *tag, const char *type)
+soap_put_PointerToSOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_PointerToSOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *const*, const char*, const char*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Reason *const*, const char*, const char*)
+soap_put_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Code(struct soap *soap, const struct SOAP_ENV__Code *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Code *a, const char *tag, const char *type)
+soap_put_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Code(struct soap*, const struct SOAP_ENV__Code *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Code *, const char*, const char*)
+soap_put_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Detail(struct soap *soap, const struct SOAP_ENV__Detail *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Detail *a, const char *tag, const char *type)
+soap_put_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Detail(struct soap*, const struct SOAP_ENV__Detail *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Detail *, const char*, const char*)
+soap_put_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Fault(struct soap *soap, const struct SOAP_ENV__Fault *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Fault *a, const char *tag, const char *type)
+soap_put_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Fault(struct soap*, const struct SOAP_ENV__Fault *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Fault *, const char*, const char*)
+soap_put_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Header(struct soap *soap, const struct SOAP_ENV__Header *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Header *a, const char *tag, const char *type)
+soap_put_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Header(struct soap*, const struct SOAP_ENV__Header *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Header *, const char*, const char*)
+soap_put_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Reason(struct soap *soap, const struct SOAP_ENV__Reason *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Reason *a, const char *tag, const char *type)
+soap_put_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_SOAP_ENV__Reason(struct soap*, const struct SOAP_ENV__Reason *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Reason *, const char*, const char*)
+soap_put__QName	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put__QName(struct soap *soap, char *const*a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, char *const*a, const char *tag, const char *type)
+soap_put__QName	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put__QName(struct soap*, char *const*, const char*, const char*);$/;"	p	signature:(struct soap*, char *const*, const char*, const char*)
+soap_put_byte	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_byte(struct soap *soap, const char *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const char *a, const char *tag, const char *type)
+soap_put_byte	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_byte(struct soap*, const char *, const char*, const char*);$/;"	p	signature:(struct soap*, const char *, const char*, const char*)
+soap_put_double	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_double(struct soap *soap, const double *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const double *a, const char *tag, const char *type)
+soap_put_double	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_double(struct soap*, const double *, const char*, const char*);$/;"	p	signature:(struct soap*, const double *, const char*, const char*)
+soap_put_int	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_int(struct soap *soap, const int *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const int *a, const char *tag, const char *type)
+soap_put_int	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_int(struct soap*, const int *, const char*, const char*);$/;"	p	signature:(struct soap*, const int *, const char*, const char*)
+soap_put_ns2__add	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__add(struct soap *soap, const struct ns2__add *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__add *a, const char *tag, const char *type)
+soap_put_ns2__add	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__add(struct soap*, const struct ns2__add *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__add *, const char*, const char*)
+soap_put_ns2__addResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__addResponse(struct soap *soap, const struct ns2__addResponse *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__addResponse *a, const char *tag, const char *type)
+soap_put_ns2__addResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__addResponse(struct soap*, const struct ns2__addResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__addResponse *, const char*, const char*)
+soap_put_ns2__div	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__div(struct soap *soap, const struct ns2__div *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__div *a, const char *tag, const char *type)
+soap_put_ns2__div	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__div(struct soap*, const struct ns2__div *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__div *, const char*, const char*)
+soap_put_ns2__divResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__divResponse(struct soap *soap, const struct ns2__divResponse *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__divResponse *a, const char *tag, const char *type)
+soap_put_ns2__divResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__divResponse(struct soap*, const struct ns2__divResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__divResponse *, const char*, const char*)
+soap_put_ns2__mul	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__mul(struct soap *soap, const struct ns2__mul *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__mul *a, const char *tag, const char *type)
+soap_put_ns2__mul	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__mul(struct soap*, const struct ns2__mul *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__mul *, const char*, const char*)
+soap_put_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__mulResponse(struct soap *soap, const struct ns2__mulResponse *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__mulResponse *a, const char *tag, const char *type)
+soap_put_ns2__mulResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__mulResponse(struct soap*, const struct ns2__mulResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__mulResponse *, const char*, const char*)
+soap_put_ns2__pow	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__pow(struct soap *soap, const struct ns2__pow *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__pow *a, const char *tag, const char *type)
+soap_put_ns2__pow	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__pow(struct soap*, const struct ns2__pow *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__pow *, const char*, const char*)
+soap_put_ns2__powResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__powResponse(struct soap *soap, const struct ns2__powResponse *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__powResponse *a, const char *tag, const char *type)
+soap_put_ns2__powResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__powResponse(struct soap*, const struct ns2__powResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__powResponse *, const char*, const char*)
+soap_put_ns2__sub	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__sub(struct soap *soap, const struct ns2__sub *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__sub *a, const char *tag, const char *type)
+soap_put_ns2__sub	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__sub(struct soap*, const struct ns2__sub *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__sub *, const char*, const char*)
+soap_put_ns2__subResponse	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__subResponse(struct soap *soap, const struct ns2__subResponse *a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, const struct ns2__subResponse *a, const char *tag, const char *type)
+soap_put_ns2__subResponse	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_ns2__subResponse(struct soap*, const struct ns2__subResponse *, const char*, const char*);$/;"	p	signature:(struct soap*, const struct ns2__subResponse *, const char*, const char*)
+soap_put_string	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_string(struct soap *soap, char *const*a, const char *tag, const char *type)$/;"	f	signature:(struct soap *soap, char *const*a, const char *tag, const char *type)
+soap_put_string	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_put_string(struct soap*, char *const*, const char*, const char*);$/;"	p	signature:(struct soap*, char *const*, const char*, const char*)
+soap_putelement	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putelement(struct soap *soap, const void *ptr, const char *tag, int id, int type)$/;"	f	signature:(struct soap *soap, const void *ptr, const char *tag, int id, int type)
+soap_putelement	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putelement(struct soap*, const void*, const char*, int, int);$/;"	p	signature:(struct soap*, const void*, const char*, int, int)
+soap_putfault	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putfault(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_putheader	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putheader(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_putindependent	soapC.cpp	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putindependent(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_putindependent	soapH.h	/^SOAP_FMAC3 int SOAP_FMAC4 soap_putindependent(struct soap*);$/;"	p	signature:(struct soap*)
+soap_read_SOAP_ENV__Code	soapH.h	/^inline int soap_read_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code *p)
+soap_read_SOAP_ENV__Detail	soapH.h	/^inline int soap_read_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail *p)
+soap_read_SOAP_ENV__Fault	soapH.h	/^inline int soap_read_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Fault *p)
+soap_read_SOAP_ENV__Header	soapH.h	/^inline int soap_read_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Header *p)
+soap_read_SOAP_ENV__Reason	soapH.h	/^inline int soap_read_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason *p)
+soap_read__QName	soapH.h	/^inline int soap_read__QName(struct soap *soap, char **p)$/;"	f	signature:(struct soap *soap, char **p)
+soap_read_byte	soapH.h	/^inline int soap_read_byte(struct soap *soap, char *p)$/;"	f	signature:(struct soap *soap, char *p)
+soap_read_double	soapH.h	/^inline int soap_read_double(struct soap *soap, double *p)$/;"	f	signature:(struct soap *soap, double *p)
+soap_read_int	soapH.h	/^inline int soap_read_int(struct soap *soap, int *p)$/;"	f	signature:(struct soap *soap, int *p)
+soap_read_ns2__add	soapH.h	/^inline int soap_read_ns2__add(struct soap *soap, struct ns2__add *p)$/;"	f	signature:(struct soap *soap, struct ns2__add *p)
+soap_read_ns2__addResponse	soapH.h	/^inline int soap_read_ns2__addResponse(struct soap *soap, struct ns2__addResponse *p)$/;"	f	signature:(struct soap *soap, struct ns2__addResponse *p)
+soap_read_ns2__div	soapH.h	/^inline int soap_read_ns2__div(struct soap *soap, struct ns2__div *p)$/;"	f	signature:(struct soap *soap, struct ns2__div *p)
+soap_read_ns2__divResponse	soapH.h	/^inline int soap_read_ns2__divResponse(struct soap *soap, struct ns2__divResponse *p)$/;"	f	signature:(struct soap *soap, struct ns2__divResponse *p)
+soap_read_ns2__mul	soapH.h	/^inline int soap_read_ns2__mul(struct soap *soap, struct ns2__mul *p)$/;"	f	signature:(struct soap *soap, struct ns2__mul *p)
+soap_read_ns2__mulResponse	soapH.h	/^inline int soap_read_ns2__mulResponse(struct soap *soap, struct ns2__mulResponse *p)$/;"	f	signature:(struct soap *soap, struct ns2__mulResponse *p)
+soap_read_ns2__pow	soapH.h	/^inline int soap_read_ns2__pow(struct soap *soap, struct ns2__pow *p)$/;"	f	signature:(struct soap *soap, struct ns2__pow *p)
+soap_read_ns2__powResponse	soapH.h	/^inline int soap_read_ns2__powResponse(struct soap *soap, struct ns2__powResponse *p)$/;"	f	signature:(struct soap *soap, struct ns2__powResponse *p)
+soap_read_ns2__sub	soapH.h	/^inline int soap_read_ns2__sub(struct soap *soap, struct ns2__sub *p)$/;"	f	signature:(struct soap *soap, struct ns2__sub *p)
+soap_read_ns2__subResponse	soapH.h	/^inline int soap_read_ns2__subResponse(struct soap *soap, struct ns2__subResponse *p)$/;"	f	signature:(struct soap *soap, struct ns2__subResponse *p)
+soap_read_string	soapH.h	/^inline int soap_read_string(struct soap *soap, char **p)$/;"	f	signature:(struct soap *soap, char **p)
+soap_receiverfault	soapcalcService.cpp	/^int calcService::soap_receiverfault(const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *string, const char *detailXML)
+soap_receiverfault	soapcalcService.cpp	/^int calcService::soap_receiverfault(const char *subcodeQName, const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+soap_receiverfault	soapcalcService.h	/^        virtual int soap_receiverfault(const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *string, const char *detailXML)
+soap_receiverfault	soapcalcService.h	/^        virtual int soap_receiverfault(const char *subcodeQName, const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+soap_senderfault	soapcalcService.cpp	/^int calcService::soap_senderfault(const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *string, const char *detailXML)
+soap_senderfault	soapcalcService.cpp	/^int calcService::soap_senderfault(const char *subcodeQName, const char *string, const char *detailXML)$/;"	f	class:calcService	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+soap_senderfault	soapcalcService.h	/^        virtual int soap_senderfault(const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *string, const char *detailXML)
+soap_senderfault	soapcalcService.h	/^        virtual int soap_senderfault(const char *subcodeQName, const char *string, const char *detailXML);$/;"	p	class:calcService	access:public	signature:(const char *subcodeQName, const char *string, const char *detailXML)
+soap_serialize_PointerToSOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code *const*a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code *const*a)
+soap_serialize_PointerToSOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Code(struct soap*, struct SOAP_ENV__Code *const*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Code *const*)
+soap_serialize_PointerToSOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail *const*a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail *const*a)
+soap_serialize_PointerToSOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Detail(struct soap*, struct SOAP_ENV__Detail *const*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Detail *const*)
+soap_serialize_PointerToSOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason *const*a)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason *const*a)
+soap_serialize_PointerToSOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_PointerToSOAP_ENV__Reason(struct soap*, struct SOAP_ENV__Reason *const*);$/;"	p	signature:(struct soap*, struct SOAP_ENV__Reason *const*)
+soap_serialize_SOAP_ENV__Code	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Code(struct soap *soap, const struct SOAP_ENV__Code *a)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Code *a)
+soap_serialize_SOAP_ENV__Code	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Code(struct soap*, const struct SOAP_ENV__Code *);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Code *)
+soap_serialize_SOAP_ENV__Detail	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Detail(struct soap *soap, const struct SOAP_ENV__Detail *a)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Detail *a)
+soap_serialize_SOAP_ENV__Detail	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Detail(struct soap*, const struct SOAP_ENV__Detail *);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Detail *)
+soap_serialize_SOAP_ENV__Fault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Fault(struct soap *soap, const struct SOAP_ENV__Fault *a)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Fault *a)
+soap_serialize_SOAP_ENV__Fault	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Fault(struct soap*, const struct SOAP_ENV__Fault *);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Fault *)
+soap_serialize_SOAP_ENV__Header	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Header(struct soap *soap, const struct SOAP_ENV__Header *a)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Header *a)
+soap_serialize_SOAP_ENV__Header	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Header(struct soap*, const struct SOAP_ENV__Header *);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Header *)
+soap_serialize_SOAP_ENV__Reason	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Reason(struct soap *soap, const struct SOAP_ENV__Reason *a)$/;"	f	signature:(struct soap *soap, const struct SOAP_ENV__Reason *a)
+soap_serialize_SOAP_ENV__Reason	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_SOAP_ENV__Reason(struct soap*, const struct SOAP_ENV__Reason *);$/;"	p	signature:(struct soap*, const struct SOAP_ENV__Reason *)
+soap_serialize__QName	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__QName(struct soap *soap, char *const*a)$/;"	f	signature:(struct soap *soap, char *const*a)
+soap_serialize__QName	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize__QName(struct soap*, char *const*);$/;"	p	signature:(struct soap*, char *const*)
+soap_serialize_ns2__add	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__add(struct soap *soap, const struct ns2__add *a)$/;"	f	signature:(struct soap *soap, const struct ns2__add *a)
+soap_serialize_ns2__add	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__add(struct soap*, const struct ns2__add *);$/;"	p	signature:(struct soap*, const struct ns2__add *)
+soap_serialize_ns2__addResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__addResponse(struct soap *soap, const struct ns2__addResponse *a)$/;"	f	signature:(struct soap *soap, const struct ns2__addResponse *a)
+soap_serialize_ns2__addResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__addResponse(struct soap*, const struct ns2__addResponse *);$/;"	p	signature:(struct soap*, const struct ns2__addResponse *)
+soap_serialize_ns2__div	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__div(struct soap *soap, const struct ns2__div *a)$/;"	f	signature:(struct soap *soap, const struct ns2__div *a)
+soap_serialize_ns2__div	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__div(struct soap*, const struct ns2__div *);$/;"	p	signature:(struct soap*, const struct ns2__div *)
+soap_serialize_ns2__divResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__divResponse(struct soap *soap, const struct ns2__divResponse *a)$/;"	f	signature:(struct soap *soap, const struct ns2__divResponse *a)
+soap_serialize_ns2__divResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__divResponse(struct soap*, const struct ns2__divResponse *);$/;"	p	signature:(struct soap*, const struct ns2__divResponse *)
+soap_serialize_ns2__mul	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__mul(struct soap *soap, const struct ns2__mul *a)$/;"	f	signature:(struct soap *soap, const struct ns2__mul *a)
+soap_serialize_ns2__mul	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__mul(struct soap*, const struct ns2__mul *);$/;"	p	signature:(struct soap*, const struct ns2__mul *)
+soap_serialize_ns2__mulResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__mulResponse(struct soap *soap, const struct ns2__mulResponse *a)$/;"	f	signature:(struct soap *soap, const struct ns2__mulResponse *a)
+soap_serialize_ns2__mulResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__mulResponse(struct soap*, const struct ns2__mulResponse *);$/;"	p	signature:(struct soap*, const struct ns2__mulResponse *)
+soap_serialize_ns2__pow	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__pow(struct soap *soap, const struct ns2__pow *a)$/;"	f	signature:(struct soap *soap, const struct ns2__pow *a)
+soap_serialize_ns2__pow	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__pow(struct soap*, const struct ns2__pow *);$/;"	p	signature:(struct soap*, const struct ns2__pow *)
+soap_serialize_ns2__powResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__powResponse(struct soap *soap, const struct ns2__powResponse *a)$/;"	f	signature:(struct soap *soap, const struct ns2__powResponse *a)
+soap_serialize_ns2__powResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__powResponse(struct soap*, const struct ns2__powResponse *);$/;"	p	signature:(struct soap*, const struct ns2__powResponse *)
+soap_serialize_ns2__sub	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__sub(struct soap *soap, const struct ns2__sub *a)$/;"	f	signature:(struct soap *soap, const struct ns2__sub *a)
+soap_serialize_ns2__sub	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__sub(struct soap*, const struct ns2__sub *);$/;"	p	signature:(struct soap*, const struct ns2__sub *)
+soap_serialize_ns2__subResponse	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__subResponse(struct soap *soap, const struct ns2__subResponse *a)$/;"	f	signature:(struct soap *soap, const struct ns2__subResponse *a)
+soap_serialize_ns2__subResponse	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_ns2__subResponse(struct soap*, const struct ns2__subResponse *);$/;"	p	signature:(struct soap*, const struct ns2__subResponse *)
+soap_serialize_string	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_string(struct soap *soap, char *const*a)$/;"	f	signature:(struct soap *soap, char *const*a)
+soap_serialize_string	soapH.h	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serialize_string(struct soap*, char *const*);$/;"	p	signature:(struct soap*, char *const*)
+soap_serializefault	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serializefault(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_serializeheader	soapC.cpp	/^SOAP_FMAC3 void SOAP_FMAC4 soap_serializeheader(struct soap *soap)$/;"	f	signature:(struct soap *soap)
+soap_sprint_fault	soapcalcProxy.cpp	/^char *calcProxy::soap_sprint_fault(char *buf, size_t len)$/;"	f	class:calcProxy	signature:(char *buf, size_t len)
+soap_sprint_fault	soapcalcProxy.h	/^        virtual char *soap_sprint_fault(char *buf, size_t len);$/;"	p	class:calcProxy	access:public	signature:(char *buf, size_t len)
+soap_sprint_fault	soapcalcService.cpp	/^char *calcService::soap_sprint_fault(char *buf, size_t len)$/;"	f	class:calcService	signature:(char *buf, size_t len)
+soap_sprint_fault	soapcalcService.h	/^        virtual char *soap_sprint_fault(char *buf, size_t len);$/;"	p	class:calcService	access:public	signature:(char *buf, size_t len)
+soap_stream_fault	soapcalcProxy.cpp	/^void calcProxy::soap_stream_fault(std::ostream& os)$/;"	f	class:calcProxy	signature:(std::ostream& os)
+soap_stream_fault	soapcalcProxy.h	/^        virtual void soap_stream_fault(std::ostream&);$/;"	p	class:calcProxy	access:public	signature:(std::ostream&)
+soap_stream_fault	soapcalcService.cpp	/^void calcService::soap_stream_fault(std::ostream& os)$/;"	f	class:calcService	signature:(std::ostream& os)
+soap_stream_fault	soapcalcService.h	/^        virtual void soap_stream_fault(std::ostream&);$/;"	p	class:calcService	access:public	signature:(std::ostream&)
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Code; }$/;"	f	struct:SOAP_ENV__Code	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Detail; }$/;"	f	struct:SOAP_ENV__Detail	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Fault; }$/;"	f	struct:SOAP_ENV__Fault	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Header; }$/;"	f	struct:SOAP_ENV__Header	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_SOAP_ENV__Reason; }$/;"	f	struct:SOAP_ENV__Reason	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__add; }$/;"	f	struct:ns2__add	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__addResponse; }$/;"	f	struct:ns2__addResponse	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__div; }$/;"	f	struct:ns2__div	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__divResponse; }$/;"	f	struct:ns2__divResponse	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__mul; }$/;"	f	struct:ns2__mul	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__mulResponse; }$/;"	f	struct:ns2__mulResponse	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__pow; }$/;"	f	struct:ns2__pow	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__powResponse; }$/;"	f	struct:ns2__powResponse	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__sub; }$/;"	f	struct:ns2__sub	access:public	signature:() const
+soap_type	soapStub.h	/^        int soap_type() const { return SOAP_TYPE_ns2__subResponse; }$/;"	f	struct:ns2__subResponse	access:public	signature:() const
+soap_write_SOAP_ENV__Code	soapH.h	/^inline int soap_write_SOAP_ENV__Code(struct soap *soap, struct SOAP_ENV__Code const *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Code const *p)
+soap_write_SOAP_ENV__Detail	soapH.h	/^inline int soap_write_SOAP_ENV__Detail(struct soap *soap, struct SOAP_ENV__Detail const *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Detail const *p)
+soap_write_SOAP_ENV__Fault	soapH.h	/^inline int soap_write_SOAP_ENV__Fault(struct soap *soap, struct SOAP_ENV__Fault const *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Fault const *p)
+soap_write_SOAP_ENV__Header	soapH.h	/^inline int soap_write_SOAP_ENV__Header(struct soap *soap, struct SOAP_ENV__Header const *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Header const *p)
+soap_write_SOAP_ENV__Reason	soapH.h	/^inline int soap_write_SOAP_ENV__Reason(struct soap *soap, struct SOAP_ENV__Reason const *p)$/;"	f	signature:(struct soap *soap, struct SOAP_ENV__Reason const *p)
+soap_write__QName	soapH.h	/^inline int soap_write__QName(struct soap *soap, char *const *p)$/;"	f	signature:(struct soap *soap, char *const *p)
+soap_write_byte	soapH.h	/^inline int soap_write_byte(struct soap *soap, char const *p)$/;"	f	signature:(struct soap *soap, char const *p)
+soap_write_double	soapH.h	/^inline int soap_write_double(struct soap *soap, double const *p)$/;"	f	signature:(struct soap *soap, double const *p)
+soap_write_int	soapH.h	/^inline int soap_write_int(struct soap *soap, int const *p)$/;"	f	signature:(struct soap *soap, int const *p)
+soap_write_ns2__add	soapH.h	/^inline int soap_write_ns2__add(struct soap *soap, struct ns2__add const *p)$/;"	f	signature:(struct soap *soap, struct ns2__add const *p)
+soap_write_ns2__addResponse	soapH.h	/^inline int soap_write_ns2__addResponse(struct soap *soap, struct ns2__addResponse const *p)$/;"	f	signature:(struct soap *soap, struct ns2__addResponse const *p)
+soap_write_ns2__div	soapH.h	/^inline int soap_write_ns2__div(struct soap *soap, struct ns2__div const *p)$/;"	f	signature:(struct soap *soap, struct ns2__div const *p)
+soap_write_ns2__divResponse	soapH.h	/^inline int soap_write_ns2__divResponse(struct soap *soap, struct ns2__divResponse const *p)$/;"	f	signature:(struct soap *soap, struct ns2__divResponse const *p)
+soap_write_ns2__mul	soapH.h	/^inline int soap_write_ns2__mul(struct soap *soap, struct ns2__mul const *p)$/;"	f	signature:(struct soap *soap, struct ns2__mul const *p)
+soap_write_ns2__mulResponse	soapH.h	/^inline int soap_write_ns2__mulResponse(struct soap *soap, struct ns2__mulResponse const *p)$/;"	f	signature:(struct soap *soap, struct ns2__mulResponse const *p)
+soap_write_ns2__pow	soapH.h	/^inline int soap_write_ns2__pow(struct soap *soap, struct ns2__pow const *p)$/;"	f	signature:(struct soap *soap, struct ns2__pow const *p)
+soap_write_ns2__powResponse	soapH.h	/^inline int soap_write_ns2__powResponse(struct soap *soap, struct ns2__powResponse const *p)$/;"	f	signature:(struct soap *soap, struct ns2__powResponse const *p)
+soap_write_ns2__sub	soapH.h	/^inline int soap_write_ns2__sub(struct soap *soap, struct ns2__sub const *p)$/;"	f	signature:(struct soap *soap, struct ns2__sub const *p)
+soap_write_ns2__subResponse	soapH.h	/^inline int soap_write_ns2__subResponse(struct soap *soap, struct ns2__subResponse const *p)$/;"	f	signature:(struct soap *soap, struct ns2__subResponse const *p)
+soap_write_string	soapH.h	/^inline int soap_write_string(struct soap *soap, char *const *p)$/;"	f	signature:(struct soap *soap, char *const *p)
+soapcalcProxy_H	soapcalcProxy.h	15;"	d
+soapcalcService_H	soapcalcService.h	15;"	d
+ssl_accept	soapcalcService.cpp	/^int calcService::ssl_accept()$/;"	f	class:calcService	signature:()
+ssl_accept	soapcalcService.h	/^        virtual int ssl_accept();$/;"	p	class:calcService	access:public	signature:()
+ssl_run	soapcalcService.cpp	/^int calcService::ssl_run(int port)$/;"	f	class:calcService	signature:(int port)
+ssl_run	soapcalcService.h	/^        virtual int ssl_run(int port);$/;"	p	class:calcService	access:public	signature:(int port)
+std::vector	calc.h	/^template <class T> class std::vector;$/;"	m	class:std	typeref:class:std::
+sub	soapcalcProxy.cpp	/^int calcProxy::sub(const char *endpoint, const char *soap_action, double a, double b, double &result)$/;"	f	class:calcProxy	signature:(const char *endpoint, const char *soap_action, double a, double b, double &result)
+sub	soapcalcProxy.h	/^        virtual int sub(const char *soap_endpoint, const char *soap_action, double a, double b, double &result);$/;"	p	class:calcProxy	access:public	signature:(const char *soap_endpoint, const char *soap_action, double a, double b, double &result)
+sub	soapcalcProxy.h	/^        virtual int sub(double a, double b, double &result)$/;"	f	class:calcProxy	access:public	signature:(double a, double b, double &result)
+vector	calc.h	/^template <class T> class std::vector;$/;"	m	class:std	typeref:class:std::
+~calcProxy	soapcalcProxy.cpp	/^calcProxy::~calcProxy()$/;"	f	class:calcProxy	signature:()
+~calcProxy	soapcalcProxy.h	/^        virtual ~calcProxy();$/;"	p	class:calcProxy	access:public	signature:()
+~calcService	soapcalcService.cpp	/^calcService::~calcService()$/;"	f	class:calcService	signature:()
+~calcService	soapcalcService.h	/^        virtual ~calcService();$/;"	p	class:calcService	access:public	signature:()

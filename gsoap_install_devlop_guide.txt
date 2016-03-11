@@ -1,0 +1,47 @@
+简介
+gsoap是一个webservice框架，支持c,c++语言, 支持xml,jason消息序列化.
+使用该框架可以很方便的生成service,client端应用代码,快速构建webservice通信。
+
+下载
+项目主页：http://www.genivia.com/products.html
+最新版本：2.8.29
+下载地址：http://downloads.sourceforge.net/project/gsoap2/gSOAP/gsoap_2.8.29.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fgsoap2%2Ffiles%2FgSOAP%2F&ts=1457435342&use_mirror=jaist
+
+安装
+安装依赖库
+wget ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.65.tar.xz
+tar xf autoconf-2.65.tar.xz
+cd autoconf-2.65
+./configure
+make && sudo make install
+sudo yum install byacc
+sudo yum install flex
+sudo yum install bison-devel
+sudo yum install zlib-devel
+sudo yum install openssl-devel
+
+安装
+unzip gsoap_2.8.29.zip
+cd gsoap-2.8
+configure
+make && sudo make install
+
+使用
+wsdl2h:
+wsdl2h -c++11 -o hr.h hr.xsd
+soapcpp2:
+
+实例
+生成客户端
+wsdl2h -s calc.wsdl
+soapcpp2 -i -C calc.h
+touch client.cpp
+g++ -std=c++11 -g -Wall -o client soapC.cpp soapcalcProxy.cpp client.cpp -lgsoap++
+./client 1.0 2.0
+
+生成服务端
+soapcpp2 -i -S calc.h
+touch service.cpp
+touch calc.cpp
+
+
